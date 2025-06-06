@@ -1,0 +1,136 @@
+/* Container */
+#sb-filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Form fields */
+#sb-filter-form div,
+#sb-filter-form fieldset {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#sb-filter-form label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+#sb-filter-form input[type="text"],
+#sb-filter-form select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+#sb-filter-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sb-filter-form fieldset legend {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+#sb-filter-form fieldset label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1rem;
+  font-weight: normal;
+}
+
+#sb-filter-form fieldset input[type="radio"] {
+  margin-right: 0.25rem;
+}
+
+/* Submit button */
+#sb-filter-form button[type="submit"] {
+  flex: 1 1 100%;
+  max-width: 150px;
+  padding: 0.6rem;
+  background: #0073aa;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background .2s ease;
+}
+
+#sb-filter-form button[type="submit"]:hover {
+  background: #005177;
+}
+
+/* Results container */
+#sb-filter-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Individual item */
+.sb-item {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.sb-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.sb-item h3 {
+  margin: 0.75rem;
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.sb-item p {
+  margin: 0 0.75rem 0.75rem;
+  font-size: 0.9rem;
+  color: #555;
+  flex-grow: 1;
+}
+
+/* Pagination */
+.sb-pagination {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.sb-pagination .page-btn {
+  margin: 0 0.25rem;
+  padding: 0.4rem 0.75rem;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background .2s ease;
+}
+
+.sb-pagination .page-btn:hover {
+  background: #e1e1e1;
+}
+
+.sb-pagination .page-btn.active {
+  background: #0073aa;
+  color: #fff;
+  border-color: #005177;
+}

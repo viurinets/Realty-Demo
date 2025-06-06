@@ -1,0 +1,17 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate.lock.info
+
+# Module directory
+.terraform/
+
+# Wordpress cache and sessions
+bini-website/wp-content/cache/
+bini-website/wp-content/advanced-cache.php
+bini-website/wp-content/wp-cache-config.php
+bini-website/wp-content/sessions/
+bini-website/wp-content/debug.log
+
+# Docker environment
+.env

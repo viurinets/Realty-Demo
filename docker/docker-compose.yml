@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  wordpress:
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfiles/WordPress.Dockerfile
+    restart: unless-stopped
+    ports:
+      - 8080:80
+    env_file: .env
+    environment:
+      WORDPRESS_DB_HOST: "${WORDPRESS_DB_HOST}"
+      WORDPRESS_DB_NAME: "${WORDPRESS_DB_NAME}"
+      WORDPRESS_DB_USER: "${WORDPRESS_DB_USER}"
+      WORDPRESS_DB_PASSWORD: "${WORDPRESS_DB_PASSWORD}"
+    volumes:
+      - ../wp:/var/www/html
+    networks:
+      - wordpress-network
+
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    hostname: ${WORDPRESS_DB_HOST}
+    environment:
+      POSTGRES_DB: "${WORDPRESS_DB_NAME}"
+      POSTGRES_USER: "${WORDPRESS_DB_USER}"
+      POSTGRES_PASSWORD: "${WORDPRESS_DB_PASSWORD}"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - wordpress-network
+    ports:
+      - "${WORDPRESS_DB_PORT}:${WORDPRESS_DB_PORT}"
+
+volumes:
+  postgres-data:
+
+networks:
+  wordpress-network:
+    driver: bridge

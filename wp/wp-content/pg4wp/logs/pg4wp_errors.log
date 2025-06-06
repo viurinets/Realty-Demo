@@ -1,0 +1,2527 @@
+[1746137877.2883] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746137877.5371] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746137877.7347] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746137912.2026] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746137912.4153] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746137912.6159] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746138497.3079] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746138497.5088] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746138497.7114] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746138528.2544] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746138528.4554] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746138528.6531] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746139343.728] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746139343.9302] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746139344.1288] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746139378.3472] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746139378.6457] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746139378.8478] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746141566.4543] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746141566.6694] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746141566.8662] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746141599.8531] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746141600.0604] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746141600.2572] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746141784.3224] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746141784.5276] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746141784.7233] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746169232.5972] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746169232.6614] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746169232.712] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746169234.0966] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746169234.1499] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746169234.159] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746169234.2001] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746169234.2088] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746169234.2588] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746169408.6562] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746169408.8033] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746169408.8531] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746169411.0192] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746169411.0182] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746169411.069] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746169411.0681] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746169411.1188] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746169411.1188] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746169461.1811] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746169461.2484] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746169461.3002] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746169483.1791] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746169483.2286] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746169483.2786] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746173617.1766] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746173617.1987] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746173617.2103] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746173631.3943] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746173631.3974] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746173631.4012] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746194427.3143] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746194427.3326] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746194427.3442] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746194454.9295] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746194454.9444] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746194454.956] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746194464.9901] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1746194464.9966] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1746194465.0214] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1746198808.8347] Error running :
+CREATE TABLE IF NOT EXISTS wp_smackcsv_file_events (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`mode` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_rows` INT(255) NOT NULL,
+			`lock` BOOLEAN DEFAULT false,
+			`progress` INT(6)) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_smackcsv_file_events (
+			id serial PRIMARY KEY,
+			file_name VARCHAR(255) NOT NULL,
+			status VARCHAR(255) NOT NULL,
+			mode VARCHAR(255) NOT NULL,
+			hash_key VARCHAR(255) NOT NULL,
+			templatekey VARCHAR(32),
+			total_rows INT NOT NULL,
+			lock BOOLEAN DEFAULT false,
+			progress INT) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:    progress INT) ENGINE=InnoDB;
+                          ^
+---------------------
+[1746198808.8442] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_media (
+			`post_id` INT(6),
+			`attach_id` INT(6) NOT NULL,
+			`image_url` blob NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`status` VARCHAR(255) DEFAULT 'pending',
+			`module` VARCHAR(255) DEFAULT NULL,
+			`image_type` VARCHAR(255) DEFAULT NULL
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_media (
+			post_id INT,
+			attach_id INT NOT NULL,
+			image_url blob NOT NULL,
+			hash_key VARCHAR(255) NOT NULL,
+			templatekey VARCHAR(32),
+			status VARCHAR(255) DEFAULT 'pending',
+			module VARCHAR(255) DEFAULT NULL,
+			image_type VARCHAR(255) DEFAULT NULL
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198808.8509] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_post_entries (
+					`ID` INT(6),
+					`file_name` varchar(255) DEFAULT NULL,
+					`type` varchar(255) DEFAULT NULL,
+					`revision` INT(6),
+					`status` varchar(255) DEFAULT NULL
+					) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_post_entries (
+				 "ID" INT,
+					file_name varchar(255) DEFAULT NULL,
+					type varchar(255) DEFAULT NULL,
+					revision INT,
+					status varchar(255) DEFAULT NULL
+					) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 7:      ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198808.8572] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_shortcode_manager (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`post_id` INT(6),
+			`post_title` VARCHAR(255) DEFAULT NULL,
+			`image_shortcode` VARCHAR(255) NOT NULL,
+			`media_id` INT(6) DEFAULT NULL,
+			`original_image` TEXT NOT NULL,
+			`indexs` INT(10) DEFAULT NULL,
+			`status` VARCHAR(255) DEFAULT 'failed',
+			`image_meta` TEXT DEFAULT NULL,
+			`hash_key` VARCHAR(255) DEFAULT NULL,
+			`import_type` VARCHAR(10) DEFAULT NULL,
+			`file_name` VARCHAR(100) ,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_shortcode_manager (
+			id serial,
+			post_id INT,
+			post_title VARCHAR(255) DEFAULT NULL,
+			image_shortcode VARCHAR(255) NOT NULL,
+			media_id INT DEFAULT NULL,
+			original_image TEXT NOT NULL,
+			indexs INT DEFAULT NULL,
+			status VARCHAR(255) DEFAULT 'failed',
+			image_meta TEXT DEFAULT NULL,
+			hash_key VARCHAR(255) DEFAULT NULL,
+			import_type VARCHAR(10) DEFAULT NULL,
+			file_name VARCHAR(100) ,
+			PRIMARY KEY (id)
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198808.8636] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_mappingtemplate (
+			`id` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`templatename` varchar(250) NOT NULL,
+			`mapping` blob NOT NULL,
+			`mapping_filter` blob NOT NULL,
+			`createdtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`deleted` int(1) DEFAULT '0',
+			`templateused` int(10) DEFAULT '0',
+			`mapping_type` varchar(30),
+			`module` varchar(50) DEFAULT NULL,
+			`csvname` varchar(250) DEFAULT NULL,
+			`eventKey` varchar(60) DEFAULT NULL				
+				) ENGINE = InnoDB 
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_mappingtemplate (
+			id serial PRIMARY KEY,
+			templatename varchar(250) NOT NULL,
+			mapping blob NOT NULL,
+			mapping_filter blob NOT NULL,
+			createdtime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			deleted int DEFAULT '0',
+			templateused int DEFAULT '0',
+			mapping_type varchar(30),
+			module varchar(50) DEFAULT NULL,
+			csvname varchar(250) DEFAULT NULL,
+			eventKey varchar(60) DEFAULT NULL				
+				) ENGINE = InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 13:     ) ENGINE = InnoDB;
+               ^
+---------------------
+[1746198808.8715] Error running :
+CREATE TABLE IF NOT EXISTS wp_import_detail_log (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_records` INT(6),
+			`processing_records` INT(6) default 0,
+			`remaining_records` INT(6) default 0,
+			`filesize` VARCHAR(255) NOT NULL,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_import_detail_log (
+			id serial PRIMARY KEY,
+			file_name VARCHAR(255) NOT NULL,
+			status VARCHAR(255) NOT NULL,
+			hash_key VARCHAR(255) NOT NULL,
+			templatekey VARCHAR(32),
+			total_records INT,
+			processing_records INT default 0,
+			remaining_records INT default 0,
+			filesize VARCHAR(255) NOT NULL,
+			created bigint NOT NULL default 0,
+			updated bigint NOT NULL default 0,
+			failed bigint NOT NULL default 0,
+			skipped bigint NOT NULL default 0
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198808.8797] Error running :
+CREATE TABLE IF NOT EXISTS wp_import_log_detail (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`message` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`verify` blob NOT NULL,
+			`categories` VARCHAR(255) NOT NULL,
+			`tags` VARCHAR(255) NOT NULL,
+			`post_id` int(6) NULL
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_import_log_detail (
+			id serial PRIMARY KEY,
+			hash_key VARCHAR(255) NOT NULL,
+			message VARCHAR(255) NOT NULL,
+			status VARCHAR(255) NOT NULL,
+			verify blob NOT NULL,
+			categories VARCHAR(255) NOT NULL,
+			tags VARCHAR(255) NOT NULL,
+			post_id int NULL
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198808.8977] Error running :
+CREATE TABLE IF NOT EXISTS wp_smackuci_events (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`revision` bigint(20) NOT NULL default 0,
+			`name` varchar(255),
+			`original_file_name` varchar(255),
+			`friendly_name` varchar(255),
+			`import_type` varchar(32),
+			`filetype` text,
+			`filepath` text,
+			`eventKey` varchar(32),
+			`registered_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`parent_node` varchar(255),
+			`processing` tinyint(1) NOT NULL default 0,
+			`executing` tinyint(1) NOT NULL default 0,
+			`triggered` tinyint(1) NOT NULL default 0,
+			`event_started_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`count` bigint(20) NOT NULL default 0,
+			`processed` bigint(20) NOT NULL default 0,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`deleted` bigint(20) NOT NULL default 0,
+			`is_terminated` tinyint(1) NOT NULL default 0,
+			`terminated_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`last_activity` datetime NOT NULL default '0000-00-00 00:00:00',
+			`siteid` int(11) NOT NULL DEFAULT 1,
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL,
+			`deletelog` BOOLEAN DEFAULT false
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_smackuci_events (
+			id bigserial PRIMARY KEY,
+			revision bigint NOT NULL default 0,
+			name varchar(255),
+			original_file_name varchar(255),
+			friendly_name varchar(255),
+			import_type varchar(32),
+			filetype text,
+			filepath text,
+			eventKey varchar(32),
+			registered_on timestamp NOT NULL DEFAULT now(),
+			parent_node varchar(255),
+			processing smallint NOT NULL default 0,
+			executing smallint NOT NULL default 0,
+			triggered smallint NOT NULL default 0,
+			event_started_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			count bigint NOT NULL default 0,
+			processed bigint NOT NULL default 0,
+			created bigint NOT NULL default 0,
+			updated bigint NOT NULL default 0,
+			skipped bigint NOT NULL default 0,
+			failed bigint NOT NULL default 0,
+			deleted bigint NOT NULL default 0,
+			is_terminated smallint NOT NULL default 0,
+			terminated_on timestamp NOT NULL DEFAULT now(),
+			last_activity timestamp NOT NULL DEFAULT now(),
+			siteid int NOT NULL DEFAULT 1,
+			month varchar(60) DEFAULT NULL,
+			year varchar(60) DEFAULT NULL,
+			deletelog BOOLEAN DEFAULT false
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 31:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198808.905] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_acf_fields (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`groupId` varchar(100) NOT NULL,
+			`fieldId` varchar(100) NOT NULL,
+			`fieldLabel` varchar(100) NOT NULL,
+			`fieldName` varchar(100) NOT NULL,
+			`fieldType` varchar(60) NOT NULL,
+			`fdOption` varchar(100) DEFAULT NULL,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_acf_fields (
+			id serial,
+			groupId varchar(100) NOT NULL,
+			fieldId varchar(100) NOT NULL,
+			fieldLabel varchar(100) NOT NULL,
+			fieldName varchar(100) NOT NULL,
+			fieldType varchar(60) NOT NULL,
+			fdOption varchar(100) DEFAULT NULL,
+			PRIMARY KEY (id)
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198808.9122] Error running :
+CREATE TABLE IF NOT EXISTS wp_cli_csv_template (
+			`ID` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`template_name` varchar(255) DEFAULT NULL,
+			`file_name` varchar(255) DEFAULT NULL,
+			`type` varchar(255) DEFAULT NULL,
+			`templatekey` varchar(32) NOT NuLL,	
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL					
+			) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_cli_csv_template (
+		 "ID" serial PRIMARY KEY,
+			template_name varchar(255) DEFAULT NULL,
+			file_name varchar(255) DEFAULT NULL,
+			type varchar(255) DEFAULT NULL,
+			templatekey varchar(32) NOT NuLL,	
+			month varchar(60) DEFAULT NULL,
+			year varchar(60) DEFAULT NULL					
+			) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 9:    ) ENGINE=InnoDB;
+             ^
+---------------------
+[1746198808.9209] Error running :
+
+    	CREATE TABLE IF NOT EXISTS wp_summary (
+        `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        `event_id` VARCHAR(255) NOT NULL,
+        `post_id` INT  NULL,
+        `post_title` VARCHAR(255)  NULL,
+        `post_type` VARCHAR(255)  NULL,
+        `status` VARCHAR(255)  NULL,
+        `is_category` TINYINT NOT NULL,
+        `associated_media` INT(250)  NULL,
+        `failed_media` INT(250)  NULL
+    		) ENGINE=InnoDB;
+			
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_summary (
+        id serial PRIMARY KEY,
+        event_id VARCHAR(255) NOT NULL,
+        post_id INT  NULL,
+        post_title VARCHAR(255)  NULL,
+        post_type VARCHAR(255)  NULL,
+        status VARCHAR(255)  NULL,
+        is_category smallint NOT NULL,
+        associated_media INT  NULL,
+        failed_media INT  NULL
+    		) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 11:       ) ENGINE=InnoDB;
+                 ^
+---------------------
+[1746198808.9291] Error running :
+
+		CREATE TABLE IF NOT EXISTS wp_failed_media (
+		`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+		`event_id` VARCHAR(255) NOT NULL,
+		`post_id` INT NOT NULL,
+		`media_id` INT NOT NULL,
+		`title` VARCHAR(255)  NULL,
+		`file_name` VARCHAR(255)  NULL,
+		`caption` VARCHAR(255)  NULL,
+		`description` VARCHAR(255)  NULL,
+		`alt_text` VARCHAR(255)  NULL,
+		`actual_url` VARCHAR(255)  NULL,
+		`file_url` VARCHAR(255)  NULL,
+		`status` VARCHAR(255)  NULL
+
+		) ENGINE=InnoDB;
+		
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_failed_media (
+		id serial PRIMARY KEY,
+		event_id VARCHAR(255) NOT NULL,
+		post_id INT NOT NULL,
+		media_id INT NOT NULL,
+		title VARCHAR(255)  NULL,
+		file_name VARCHAR(255)  NULL,
+		caption VARCHAR(255)  NULL,
+		description VARCHAR(255)  NULL,
+		alt_text VARCHAR(255)  NULL,
+		actual_url VARCHAR(255)  NULL,
+		file_url VARCHAR(255)  NULL,
+		status VARCHAR(255)  NULL
+
+		) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 15:   ) ENGINE=InnoDB;
+             ^
+---------------------
+[1746198823.459] Error running :
+CREATE TABLE IF NOT EXISTS wp_smackcsv_file_events (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`mode` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_rows` INT(255) NOT NULL,
+			`lock` BOOLEAN DEFAULT false,
+			`progress` INT(6)) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_smackcsv_file_events (
+			id serial PRIMARY KEY,
+			file_name VARCHAR(255) NOT NULL,
+			status VARCHAR(255) NOT NULL,
+			mode VARCHAR(255) NOT NULL,
+			hash_key VARCHAR(255) NOT NULL,
+			templatekey VARCHAR(32),
+			total_rows INT NOT NULL,
+			lock BOOLEAN DEFAULT false,
+			progress INT) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:    progress INT) ENGINE=InnoDB;
+                          ^
+---------------------
+[1746198823.4676] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_media (
+			`post_id` INT(6),
+			`attach_id` INT(6) NOT NULL,
+			`image_url` blob NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`status` VARCHAR(255) DEFAULT 'pending',
+			`module` VARCHAR(255) DEFAULT NULL,
+			`image_type` VARCHAR(255) DEFAULT NULL
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_media (
+			post_id INT,
+			attach_id INT NOT NULL,
+			image_url blob NOT NULL,
+			hash_key VARCHAR(255) NOT NULL,
+			templatekey VARCHAR(32),
+			status VARCHAR(255) DEFAULT 'pending',
+			module VARCHAR(255) DEFAULT NULL,
+			image_type VARCHAR(255) DEFAULT NULL
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198823.477] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_post_entries (
+					`ID` INT(6),
+					`file_name` varchar(255) DEFAULT NULL,
+					`type` varchar(255) DEFAULT NULL,
+					`revision` INT(6),
+					`status` varchar(255) DEFAULT NULL
+					) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_post_entries (
+				 "ID" INT,
+					file_name varchar(255) DEFAULT NULL,
+					type varchar(255) DEFAULT NULL,
+					revision INT,
+					status varchar(255) DEFAULT NULL
+					) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 7:      ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198823.4834] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_shortcode_manager (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`post_id` INT(6),
+			`post_title` VARCHAR(255) DEFAULT NULL,
+			`image_shortcode` VARCHAR(255) NOT NULL,
+			`media_id` INT(6) DEFAULT NULL,
+			`original_image` TEXT NOT NULL,
+			`indexs` INT(10) DEFAULT NULL,
+			`status` VARCHAR(255) DEFAULT 'failed',
+			`image_meta` TEXT DEFAULT NULL,
+			`hash_key` VARCHAR(255) DEFAULT NULL,
+			`import_type` VARCHAR(10) DEFAULT NULL,
+			`file_name` VARCHAR(100) ,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_shortcode_manager (
+			id serial,
+			post_id INT,
+			post_title VARCHAR(255) DEFAULT NULL,
+			image_shortcode VARCHAR(255) NOT NULL,
+			media_id INT DEFAULT NULL,
+			original_image TEXT NOT NULL,
+			indexs INT DEFAULT NULL,
+			status VARCHAR(255) DEFAULT 'failed',
+			image_meta TEXT DEFAULT NULL,
+			hash_key VARCHAR(255) DEFAULT NULL,
+			import_type VARCHAR(10) DEFAULT NULL,
+			file_name VARCHAR(100) ,
+			PRIMARY KEY (id)
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198823.4905] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_mappingtemplate (
+			`id` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`templatename` varchar(250) NOT NULL,
+			`mapping` blob NOT NULL,
+			`mapping_filter` blob NOT NULL,
+			`createdtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`deleted` int(1) DEFAULT '0',
+			`templateused` int(10) DEFAULT '0',
+			`mapping_type` varchar(30),
+			`module` varchar(50) DEFAULT NULL,
+			`csvname` varchar(250) DEFAULT NULL,
+			`eventKey` varchar(60) DEFAULT NULL				
+				) ENGINE = InnoDB 
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_mappingtemplate (
+			id serial PRIMARY KEY,
+			templatename varchar(250) NOT NULL,
+			mapping blob NOT NULL,
+			mapping_filter blob NOT NULL,
+			createdtime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			deleted int DEFAULT '0',
+			templateused int DEFAULT '0',
+			mapping_type varchar(30),
+			module varchar(50) DEFAULT NULL,
+			csvname varchar(250) DEFAULT NULL,
+			eventKey varchar(60) DEFAULT NULL				
+				) ENGINE = InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 13:     ) ENGINE = InnoDB;
+               ^
+---------------------
+[1746198823.4966] Error running :
+CREATE TABLE IF NOT EXISTS wp_import_detail_log (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_records` INT(6),
+			`processing_records` INT(6) default 0,
+			`remaining_records` INT(6) default 0,
+			`filesize` VARCHAR(255) NOT NULL,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_import_detail_log (
+			id serial PRIMARY KEY,
+			file_name VARCHAR(255) NOT NULL,
+			status VARCHAR(255) NOT NULL,
+			hash_key VARCHAR(255) NOT NULL,
+			templatekey VARCHAR(32),
+			total_records INT,
+			processing_records INT default 0,
+			remaining_records INT default 0,
+			filesize VARCHAR(255) NOT NULL,
+			created bigint NOT NULL default 0,
+			updated bigint NOT NULL default 0,
+			failed bigint NOT NULL default 0,
+			skipped bigint NOT NULL default 0
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198823.5047] Error running :
+CREATE TABLE IF NOT EXISTS wp_import_log_detail (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`message` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`verify` blob NOT NULL,
+			`categories` VARCHAR(255) NOT NULL,
+			`tags` VARCHAR(255) NOT NULL,
+			`post_id` int(6) NULL
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_import_log_detail (
+			id serial PRIMARY KEY,
+			hash_key VARCHAR(255) NOT NULL,
+			message VARCHAR(255) NOT NULL,
+			status VARCHAR(255) NOT NULL,
+			verify blob NOT NULL,
+			categories VARCHAR(255) NOT NULL,
+			tags VARCHAR(255) NOT NULL,
+			post_id int NULL
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198823.5129] Error running :
+CREATE TABLE IF NOT EXISTS wp_smackuci_events (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`revision` bigint(20) NOT NULL default 0,
+			`name` varchar(255),
+			`original_file_name` varchar(255),
+			`friendly_name` varchar(255),
+			`import_type` varchar(32),
+			`filetype` text,
+			`filepath` text,
+			`eventKey` varchar(32),
+			`registered_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`parent_node` varchar(255),
+			`processing` tinyint(1) NOT NULL default 0,
+			`executing` tinyint(1) NOT NULL default 0,
+			`triggered` tinyint(1) NOT NULL default 0,
+			`event_started_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`count` bigint(20) NOT NULL default 0,
+			`processed` bigint(20) NOT NULL default 0,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`deleted` bigint(20) NOT NULL default 0,
+			`is_terminated` tinyint(1) NOT NULL default 0,
+			`terminated_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`last_activity` datetime NOT NULL default '0000-00-00 00:00:00',
+			`siteid` int(11) NOT NULL DEFAULT 1,
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL,
+			`deletelog` BOOLEAN DEFAULT false
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_smackuci_events (
+			id bigserial PRIMARY KEY,
+			revision bigint NOT NULL default 0,
+			name varchar(255),
+			original_file_name varchar(255),
+			friendly_name varchar(255),
+			import_type varchar(32),
+			filetype text,
+			filepath text,
+			eventKey varchar(32),
+			registered_on timestamp NOT NULL DEFAULT now(),
+			parent_node varchar(255),
+			processing smallint NOT NULL default 0,
+			executing smallint NOT NULL default 0,
+			triggered smallint NOT NULL default 0,
+			event_started_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			count bigint NOT NULL default 0,
+			processed bigint NOT NULL default 0,
+			created bigint NOT NULL default 0,
+			updated bigint NOT NULL default 0,
+			skipped bigint NOT NULL default 0,
+			failed bigint NOT NULL default 0,
+			deleted bigint NOT NULL default 0,
+			is_terminated smallint NOT NULL default 0,
+			terminated_on timestamp NOT NULL DEFAULT now(),
+			last_activity timestamp NOT NULL DEFAULT now(),
+			siteid int NOT NULL DEFAULT 1,
+			month varchar(60) DEFAULT NULL,
+			year varchar(60) DEFAULT NULL,
+			deletelog BOOLEAN DEFAULT false
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 31:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198823.5192] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_acf_fields (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`groupId` varchar(100) NOT NULL,
+			`fieldId` varchar(100) NOT NULL,
+			`fieldLabel` varchar(100) NOT NULL,
+			`fieldName` varchar(100) NOT NULL,
+			`fieldType` varchar(60) NOT NULL,
+			`fdOption` varchar(100) DEFAULT NULL,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_acf_fields (
+			id serial,
+			groupId varchar(100) NOT NULL,
+			fieldId varchar(100) NOT NULL,
+			fieldLabel varchar(100) NOT NULL,
+			fieldName varchar(100) NOT NULL,
+			fieldType varchar(60) NOT NULL,
+			fdOption varchar(100) DEFAULT NULL,
+			PRIMARY KEY (id)
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198823.5268] Error running :
+CREATE TABLE IF NOT EXISTS wp_cli_csv_template (
+			`ID` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`template_name` varchar(255) DEFAULT NULL,
+			`file_name` varchar(255) DEFAULT NULL,
+			`type` varchar(255) DEFAULT NULL,
+			`templatekey` varchar(32) NOT NuLL,	
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL					
+			) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_cli_csv_template (
+		 "ID" serial PRIMARY KEY,
+			template_name varchar(255) DEFAULT NULL,
+			file_name varchar(255) DEFAULT NULL,
+			type varchar(255) DEFAULT NULL,
+			templatekey varchar(32) NOT NuLL,	
+			month varchar(60) DEFAULT NULL,
+			year varchar(60) DEFAULT NULL					
+			) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 9:    ) ENGINE=InnoDB;
+             ^
+---------------------
+[1746198823.5331] Error running :
+
+    	CREATE TABLE IF NOT EXISTS wp_summary (
+        `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        `event_id` VARCHAR(255) NOT NULL,
+        `post_id` INT  NULL,
+        `post_title` VARCHAR(255)  NULL,
+        `post_type` VARCHAR(255)  NULL,
+        `status` VARCHAR(255)  NULL,
+        `is_category` TINYINT NOT NULL,
+        `associated_media` INT(250)  NULL,
+        `failed_media` INT(250)  NULL
+    		) ENGINE=InnoDB;
+			
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_summary (
+        id serial PRIMARY KEY,
+        event_id VARCHAR(255) NOT NULL,
+        post_id INT  NULL,
+        post_title VARCHAR(255)  NULL,
+        post_type VARCHAR(255)  NULL,
+        status VARCHAR(255)  NULL,
+        is_category smallint NOT NULL,
+        associated_media INT  NULL,
+        failed_media INT  NULL
+    		) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 11:       ) ENGINE=InnoDB;
+                 ^
+---------------------
+[1746198823.5406] Error running :
+
+		CREATE TABLE IF NOT EXISTS wp_failed_media (
+		`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+		`event_id` VARCHAR(255) NOT NULL,
+		`post_id` INT NOT NULL,
+		`media_id` INT NOT NULL,
+		`title` VARCHAR(255)  NULL,
+		`file_name` VARCHAR(255)  NULL,
+		`caption` VARCHAR(255)  NULL,
+		`description` VARCHAR(255)  NULL,
+		`alt_text` VARCHAR(255)  NULL,
+		`actual_url` VARCHAR(255)  NULL,
+		`file_url` VARCHAR(255)  NULL,
+		`status` VARCHAR(255)  NULL
+
+		) ENGINE=InnoDB;
+		
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_failed_media (
+		id serial PRIMARY KEY,
+		event_id VARCHAR(255) NOT NULL,
+		post_id INT NOT NULL,
+		media_id INT NOT NULL,
+		title VARCHAR(255)  NULL,
+		file_name VARCHAR(255)  NULL,
+		caption VARCHAR(255)  NULL,
+		description VARCHAR(255)  NULL,
+		alt_text VARCHAR(255)  NULL,
+		actual_url VARCHAR(255)  NULL,
+		file_url VARCHAR(255)  NULL,
+		status VARCHAR(255)  NULL
+
+		) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 15:   ) ENGINE=InnoDB;
+             ^
+---------------------
+[1746198828.5012] Error running :
+CREATE TABLE IF NOT EXISTS wp_smackcsv_file_events (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`mode` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_rows` INT(255) NOT NULL,
+			`lock` BOOLEAN DEFAULT false,
+			`progress` INT(6)) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_smackcsv_file_events (
+			id serial PRIMARY KEY,
+			file_name VARCHAR(255) NOT NULL,
+			status VARCHAR(255) NOT NULL,
+			mode VARCHAR(255) NOT NULL,
+			hash_key VARCHAR(255) NOT NULL,
+			templatekey VARCHAR(32),
+			total_rows INT NOT NULL,
+			lock BOOLEAN DEFAULT false,
+			progress INT) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:    progress INT) ENGINE=InnoDB;
+                          ^
+---------------------
+[1746198828.5088] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_media (
+			`post_id` INT(6),
+			`attach_id` INT(6) NOT NULL,
+			`image_url` blob NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`status` VARCHAR(255) DEFAULT 'pending',
+			`module` VARCHAR(255) DEFAULT NULL,
+			`image_type` VARCHAR(255) DEFAULT NULL
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_media (
+			post_id INT,
+			attach_id INT NOT NULL,
+			image_url blob NOT NULL,
+			hash_key VARCHAR(255) NOT NULL,
+			templatekey VARCHAR(32),
+			status VARCHAR(255) DEFAULT 'pending',
+			module VARCHAR(255) DEFAULT NULL,
+			image_type VARCHAR(255) DEFAULT NULL
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198828.5161] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_post_entries (
+					`ID` INT(6),
+					`file_name` varchar(255) DEFAULT NULL,
+					`type` varchar(255) DEFAULT NULL,
+					`revision` INT(6),
+					`status` varchar(255) DEFAULT NULL
+					) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_post_entries (
+				 "ID" INT,
+					file_name varchar(255) DEFAULT NULL,
+					type varchar(255) DEFAULT NULL,
+					revision INT,
+					status varchar(255) DEFAULT NULL
+					) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 7:      ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198828.5234] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_shortcode_manager (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`post_id` INT(6),
+			`post_title` VARCHAR(255) DEFAULT NULL,
+			`image_shortcode` VARCHAR(255) NOT NULL,
+			`media_id` INT(6) DEFAULT NULL,
+			`original_image` TEXT NOT NULL,
+			`indexs` INT(10) DEFAULT NULL,
+			`status` VARCHAR(255) DEFAULT 'failed',
+			`image_meta` TEXT DEFAULT NULL,
+			`hash_key` VARCHAR(255) DEFAULT NULL,
+			`import_type` VARCHAR(10) DEFAULT NULL,
+			`file_name` VARCHAR(100) ,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_shortcode_manager (
+			id serial,
+			post_id INT,
+			post_title VARCHAR(255) DEFAULT NULL,
+			image_shortcode VARCHAR(255) NOT NULL,
+			media_id INT DEFAULT NULL,
+			original_image TEXT NOT NULL,
+			indexs INT DEFAULT NULL,
+			status VARCHAR(255) DEFAULT 'failed',
+			image_meta TEXT DEFAULT NULL,
+			hash_key VARCHAR(255) DEFAULT NULL,
+			import_type VARCHAR(10) DEFAULT NULL,
+			file_name VARCHAR(100) ,
+			PRIMARY KEY (id)
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198828.5308] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_mappingtemplate (
+			`id` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`templatename` varchar(250) NOT NULL,
+			`mapping` blob NOT NULL,
+			`mapping_filter` blob NOT NULL,
+			`createdtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`deleted` int(1) DEFAULT '0',
+			`templateused` int(10) DEFAULT '0',
+			`mapping_type` varchar(30),
+			`module` varchar(50) DEFAULT NULL,
+			`csvname` varchar(250) DEFAULT NULL,
+			`eventKey` varchar(60) DEFAULT NULL				
+				) ENGINE = InnoDB 
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_mappingtemplate (
+			id serial PRIMARY KEY,
+			templatename varchar(250) NOT NULL,
+			mapping blob NOT NULL,
+			mapping_filter blob NOT NULL,
+			createdtime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			deleted int DEFAULT '0',
+			templateused int DEFAULT '0',
+			mapping_type varchar(30),
+			module varchar(50) DEFAULT NULL,
+			csvname varchar(250) DEFAULT NULL,
+			eventKey varchar(60) DEFAULT NULL				
+				) ENGINE = InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 13:     ) ENGINE = InnoDB;
+               ^
+---------------------
+[1746198828.5378] Error running :
+CREATE TABLE IF NOT EXISTS wp_import_detail_log (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_records` INT(6),
+			`processing_records` INT(6) default 0,
+			`remaining_records` INT(6) default 0,
+			`filesize` VARCHAR(255) NOT NULL,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_import_detail_log (
+			id serial PRIMARY KEY,
+			file_name VARCHAR(255) NOT NULL,
+			status VARCHAR(255) NOT NULL,
+			hash_key VARCHAR(255) NOT NULL,
+			templatekey VARCHAR(32),
+			total_records INT,
+			processing_records INT default 0,
+			remaining_records INT default 0,
+			filesize VARCHAR(255) NOT NULL,
+			created bigint NOT NULL default 0,
+			updated bigint NOT NULL default 0,
+			failed bigint NOT NULL default 0,
+			skipped bigint NOT NULL default 0
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198828.545] Error running :
+CREATE TABLE IF NOT EXISTS wp_import_log_detail (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`message` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`verify` blob NOT NULL,
+			`categories` VARCHAR(255) NOT NULL,
+			`tags` VARCHAR(255) NOT NULL,
+			`post_id` int(6) NULL
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_import_log_detail (
+			id serial PRIMARY KEY,
+			hash_key VARCHAR(255) NOT NULL,
+			message VARCHAR(255) NOT NULL,
+			status VARCHAR(255) NOT NULL,
+			verify blob NOT NULL,
+			categories VARCHAR(255) NOT NULL,
+			tags VARCHAR(255) NOT NULL,
+			post_id int NULL
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198828.5523] Error running :
+CREATE TABLE IF NOT EXISTS wp_smackuci_events (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`revision` bigint(20) NOT NULL default 0,
+			`name` varchar(255),
+			`original_file_name` varchar(255),
+			`friendly_name` varchar(255),
+			`import_type` varchar(32),
+			`filetype` text,
+			`filepath` text,
+			`eventKey` varchar(32),
+			`registered_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`parent_node` varchar(255),
+			`processing` tinyint(1) NOT NULL default 0,
+			`executing` tinyint(1) NOT NULL default 0,
+			`triggered` tinyint(1) NOT NULL default 0,
+			`event_started_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`count` bigint(20) NOT NULL default 0,
+			`processed` bigint(20) NOT NULL default 0,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`deleted` bigint(20) NOT NULL default 0,
+			`is_terminated` tinyint(1) NOT NULL default 0,
+			`terminated_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`last_activity` datetime NOT NULL default '0000-00-00 00:00:00',
+			`siteid` int(11) NOT NULL DEFAULT 1,
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL,
+			`deletelog` BOOLEAN DEFAULT false
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_smackuci_events (
+			id bigserial PRIMARY KEY,
+			revision bigint NOT NULL default 0,
+			name varchar(255),
+			original_file_name varchar(255),
+			friendly_name varchar(255),
+			import_type varchar(32),
+			filetype text,
+			filepath text,
+			eventKey varchar(32),
+			registered_on timestamp NOT NULL DEFAULT now(),
+			parent_node varchar(255),
+			processing smallint NOT NULL default 0,
+			executing smallint NOT NULL default 0,
+			triggered smallint NOT NULL default 0,
+			event_started_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			count bigint NOT NULL default 0,
+			processed bigint NOT NULL default 0,
+			created bigint NOT NULL default 0,
+			updated bigint NOT NULL default 0,
+			skipped bigint NOT NULL default 0,
+			failed bigint NOT NULL default 0,
+			deleted bigint NOT NULL default 0,
+			is_terminated smallint NOT NULL default 0,
+			terminated_on timestamp NOT NULL DEFAULT now(),
+			last_activity timestamp NOT NULL DEFAULT now(),
+			siteid int NOT NULL DEFAULT 1,
+			month varchar(60) DEFAULT NULL,
+			year varchar(60) DEFAULT NULL,
+			deletelog BOOLEAN DEFAULT false
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 31:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198828.5606] Error running :
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_acf_fields (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`groupId` varchar(100) NOT NULL,
+			`fieldId` varchar(100) NOT NULL,
+			`fieldLabel` varchar(100) NOT NULL,
+			`fieldName` varchar(100) NOT NULL,
+			`fieldType` varchar(60) NOT NULL,
+			`fdOption` varchar(100) DEFAULT NULL,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_acf_fields (
+			id serial,
+			groupId varchar(100) NOT NULL,
+			fieldId varchar(100) NOT NULL,
+			fieldLabel varchar(100) NOT NULL,
+			fieldName varchar(100) NOT NULL,
+			fieldType varchar(60) NOT NULL,
+			fdOption varchar(100) DEFAULT NULL,
+			PRIMARY KEY (id)
+				) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^
+---------------------
+[1746198828.5684] Error running :
+CREATE TABLE IF NOT EXISTS wp_cli_csv_template (
+			`ID` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`template_name` varchar(255) DEFAULT NULL,
+			`file_name` varchar(255) DEFAULT NULL,
+			`type` varchar(255) DEFAULT NULL,
+			`templatekey` varchar(32) NOT NuLL,	
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL					
+			) ENGINE=InnoDB
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_cli_csv_template (
+		 "ID" serial PRIMARY KEY,
+			template_name varchar(255) DEFAULT NULL,
+			file_name varchar(255) DEFAULT NULL,
+			type varchar(255) DEFAULT NULL,
+			templatekey varchar(32) NOT NuLL,	
+			month varchar(60) DEFAULT NULL,
+			year varchar(60) DEFAULT NULL					
+			) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 9:    ) ENGINE=InnoDB;
+             ^
+---------------------
+[1746198828.5748] Error running :
+
+    	CREATE TABLE IF NOT EXISTS wp_summary (
+        `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        `event_id` VARCHAR(255) NOT NULL,
+        `post_id` INT  NULL,
+        `post_title` VARCHAR(255)  NULL,
+        `post_type` VARCHAR(255)  NULL,
+        `status` VARCHAR(255)  NULL,
+        `is_category` TINYINT NOT NULL,
+        `associated_media` INT(250)  NULL,
+        `failed_media` INT(250)  NULL
+    		) ENGINE=InnoDB;
+			
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_summary (
+        id serial PRIMARY KEY,
+        event_id VARCHAR(255) NOT NULL,
+        post_id INT  NULL,
+        post_title VARCHAR(255)  NULL,
+        post_type VARCHAR(255)  NULL,
+        status VARCHAR(255)  NULL,
+        is_category smallint NOT NULL,
+        associated_media INT  NULL,
+        failed_media INT  NULL
+    		) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 11:       ) ENGINE=InnoDB;
+                 ^
+---------------------
+[1746198828.5821] Error running :
+
+		CREATE TABLE IF NOT EXISTS wp_failed_media (
+		`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+		`event_id` VARCHAR(255) NOT NULL,
+		`post_id` INT NOT NULL,
+		`media_id` INT NOT NULL,
+		`title` VARCHAR(255)  NULL,
+		`file_name` VARCHAR(255)  NULL,
+		`caption` VARCHAR(255)  NULL,
+		`description` VARCHAR(255)  NULL,
+		`alt_text` VARCHAR(255)  NULL,
+		`actual_url` VARCHAR(255)  NULL,
+		`file_url` VARCHAR(255)  NULL,
+		`status` VARCHAR(255)  NULL
+
+		) ENGINE=InnoDB;
+		
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_failed_media (
+		id serial PRIMARY KEY,
+		event_id VARCHAR(255) NOT NULL,
+		post_id INT NOT NULL,
+		media_id INT NOT NULL,
+		title VARCHAR(255)  NULL,
+		file_name VARCHAR(255)  NULL,
+		caption VARCHAR(255)  NULL,
+		description VARCHAR(255)  NULL,
+		alt_text VARCHAR(255)  NULL,
+		actual_url VARCHAR(255)  NULL,
+		file_url VARCHAR(255)  NULL,
+		status VARCHAR(255)  NULL
+
+		) ENGINE=InnoDB;
+----> ERROR:  syntax error at or near "ENGINE"
+LINE 15:   ) ENGINE=InnoDB;
+             ^
+---------------------
+[1746198941.4184] Error running :
+
+CREATE TABLE wp_pmxi_imports (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	parent_import_id BIGINT(20) NOT NULL DEFAULT 0,
+	name TEXT,
+	friendly_name VARCHAR(255) NOT NULL DEFAULT '',
+	type VARCHAR(32) NOT NULL DEFAULT '',
+	feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT '',	
+	path TEXT,	
+	xpath TEXT,		
+	options LONGTEXT,		
+	registered_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',				
+  	root_element VARCHAR(255) DEFAULT '',
+  	processing BOOL NOT NULL DEFAULT 0,
+  	executing BOOL NOT NULL DEFAULT 0,
+  	triggered BOOL NOT NULL DEFAULT 0,
+  	queue_chunk_number BIGINT(20) NOT NULL DEFAULT 0,  	
+  	first_import TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,	
+  	count BIGINT(20) NOT NULL DEFAULT 0,
+  	imported BIGINT(20) NOT NULL DEFAULT 0,
+  	created BIGINT(20) NOT NULL DEFAULT 0,
+  	updated BIGINT(20) NOT NULL DEFAULT 0,
+  	skipped BIGINT(20) NOT NULL DEFAULT 0,
+  	deleted BIGINT(20) NOT NULL DEFAULT 0,
+  	changed_missing BIGINT(20) NOT NULL DEFAULT 0,
+  	canceled BOOL NOT NULL DEFAULT 0,  	
+  	canceled_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	failed BOOL NOT NULL DEFAULT 0,  	
+  	failed_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	settings_update_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	last_activity DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',			
+  	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_imports (
+	id bigserial,
+	parent_import_id BIGINT NOT NULL DEFAULT 0,
+	name TEXT,
+	friendly_name VARCHAR(255) NOT NULL DEFAULT '',
+	type VARCHAR(32) NOT NULL DEFAULT '',
+	feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT '',	
+	path TEXT,	
+	xpath TEXT,		
+	options text,		
+	registered_on timestamp NOT NULL DEFAULT now(),				
+  	root_element VARCHAR(255) DEFAULT '',
+  	processing BOOL NOT NULL DEFAULT 0,
+  	executing BOOL NOT NULL DEFAULT 0,
+  	triggered BOOL NOT NULL DEFAULT 0,
+  	queue_chunk_number BIGINT NOT NULL DEFAULT 0,  	
+  	first_import TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,	
+  	count BIGINT NOT NULL DEFAULT 0,
+  	imported BIGINT NOT NULL DEFAULT 0,
+  	created BIGINT NOT NULL DEFAULT 0,
+  	updated BIGINT NOT NULL DEFAULT 0,
+  	skipped BIGINT NOT NULL DEFAULT 0,
+  	deleted BIGINT NOT NULL DEFAULT 0,
+  	changed_missing BIGINT NOT NULL DEFAULT 0,
+  	canceled BOOL NOT NULL DEFAULT 0,  	
+  	canceled_on timestamp NOT NULL DEFAULT now(),
+  	failed BOOL NOT NULL DEFAULT 0,  	
+  	failed_on timestamp NOT NULL DEFAULT now(),
+  	settings_update_on timestamp NOT NULL DEFAULT now(),
+  	last_activity timestamp NOT NULL DEFAULT now(),			
+  	iteration BIGINT NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)
+);
+----> ERROR:  type "enum" does not exist
+LINE 7:  feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT ...
+                   ^
+---------------------
+[1746198941.4286] Error running :
+
+CREATE TABLE wp_pmxi_posts (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	unique_key TEXT,
+	product_key TEXT,
+	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	specified BOOL NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)  		
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_posts (
+	id bigserial,
+	post_id BIGINT  NOT NULL,
+	import_id BIGINT  NOT NULL,
+	unique_key TEXT,
+	product_key TEXT,
+	iteration BIGINT NOT NULL DEFAULT 0,
+	specified BOOL NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)  		
+);
+----> ERROR:  column "specified" is of type boolean but default expression is of type integer
+HINT:  You will need to rewrite or cast the expression.
+---------------------
+[1746198941.4495] Error running :
+
+CREATE TABLE wp_pmxi_history (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	type ENUM('manual','processing','trigger','continue', 'cli', '') NOT NULL DEFAULT '',	
+	time_run TEXT,	
+	date DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',		
+	summary TEXT,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_history (
+	id bigserial,
+	import_id BIGINT  NOT NULL,
+	type ENUM('manual','processing','trigger','continue', 'cli', '') NOT NULL DEFAULT '',	
+	time_run TEXT,	
+	"date" timestamp NOT NULL DEFAULT now(),		
+	summary TEXT,
+	PRIMARY KEY  (id)
+);
+----> ERROR:  type "enum" does not exist
+LINE 4:  type ENUM('manual','processing','trigger','continue', 'cli'...
+              ^
+---------------------
+[1746198941.4562] Error running :
+
+CREATE TABLE wp_pmxi_hash (
+	hash BINARY(16) NOT NULL,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id SMALLINT(5) UNSIGNED NOT NULL,
+	post_type VARCHAR(32) NOT NULL DEFAULT '',
+	PRIMARY KEY  (hash)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_hash (
+	hash BINARY(16) NOT NULL,
+	post_id BIGINT  NOT NULL,
+	import_id SMALLINT  NOT NULL,
+	post_type VARCHAR(32) NOT NULL DEFAULT '',
+	PRIMARY KEY  (hash)
+);
+----> ERROR:  type "binary" does not exist
+LINE 2:  hash BINARY(16) NOT NULL,
+              ^
+---------------------
+[1746198951.2169] Error running :
+
+CREATE TABLE wp_pmxi_imports (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	parent_import_id BIGINT(20) NOT NULL DEFAULT 0,
+	name TEXT,
+	friendly_name VARCHAR(255) NOT NULL DEFAULT '',
+	type VARCHAR(32) NOT NULL DEFAULT '',
+	feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT '',	
+	path TEXT,	
+	xpath TEXT,		
+	options LONGTEXT,		
+	registered_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',				
+  	root_element VARCHAR(255) DEFAULT '',
+  	processing BOOL NOT NULL DEFAULT 0,
+  	executing BOOL NOT NULL DEFAULT 0,
+  	triggered BOOL NOT NULL DEFAULT 0,
+  	queue_chunk_number BIGINT(20) NOT NULL DEFAULT 0,  	
+  	first_import TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,	
+  	count BIGINT(20) NOT NULL DEFAULT 0,
+  	imported BIGINT(20) NOT NULL DEFAULT 0,
+  	created BIGINT(20) NOT NULL DEFAULT 0,
+  	updated BIGINT(20) NOT NULL DEFAULT 0,
+  	skipped BIGINT(20) NOT NULL DEFAULT 0,
+  	deleted BIGINT(20) NOT NULL DEFAULT 0,
+  	changed_missing BIGINT(20) NOT NULL DEFAULT 0,
+  	canceled BOOL NOT NULL DEFAULT 0,  	
+  	canceled_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	failed BOOL NOT NULL DEFAULT 0,  	
+  	failed_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	settings_update_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	last_activity DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',			
+  	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_imports (
+	id bigserial,
+	parent_import_id BIGINT NOT NULL DEFAULT 0,
+	name TEXT,
+	friendly_name VARCHAR(255) NOT NULL DEFAULT '',
+	type VARCHAR(32) NOT NULL DEFAULT '',
+	feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT '',	
+	path TEXT,	
+	xpath TEXT,		
+	options text,		
+	registered_on timestamp NOT NULL DEFAULT now(),				
+  	root_element VARCHAR(255) DEFAULT '',
+  	processing BOOL NOT NULL DEFAULT 0,
+  	executing BOOL NOT NULL DEFAULT 0,
+  	triggered BOOL NOT NULL DEFAULT 0,
+  	queue_chunk_number BIGINT NOT NULL DEFAULT 0,  	
+  	first_import TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,	
+  	count BIGINT NOT NULL DEFAULT 0,
+  	imported BIGINT NOT NULL DEFAULT 0,
+  	created BIGINT NOT NULL DEFAULT 0,
+  	updated BIGINT NOT NULL DEFAULT 0,
+  	skipped BIGINT NOT NULL DEFAULT 0,
+  	deleted BIGINT NOT NULL DEFAULT 0,
+  	changed_missing BIGINT NOT NULL DEFAULT 0,
+  	canceled BOOL NOT NULL DEFAULT 0,  	
+  	canceled_on timestamp NOT NULL DEFAULT now(),
+  	failed BOOL NOT NULL DEFAULT 0,  	
+  	failed_on timestamp NOT NULL DEFAULT now(),
+  	settings_update_on timestamp NOT NULL DEFAULT now(),
+  	last_activity timestamp NOT NULL DEFAULT now(),			
+  	iteration BIGINT NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)
+);
+----> ERROR:  type "enum" does not exist
+LINE 7:  feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT ...
+                   ^
+---------------------
+[1746198951.2273] Error running :
+
+CREATE TABLE wp_pmxi_posts (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	unique_key TEXT,
+	product_key TEXT,
+	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	specified BOOL NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)  		
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_posts (
+	id bigserial,
+	post_id BIGINT  NOT NULL,
+	import_id BIGINT  NOT NULL,
+	unique_key TEXT,
+	product_key TEXT,
+	iteration BIGINT NOT NULL DEFAULT 0,
+	specified BOOL NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)  		
+);
+----> ERROR:  column "specified" is of type boolean but default expression is of type integer
+HINT:  You will need to rewrite or cast the expression.
+---------------------
+[1746198951.2347] Error running :
+
+CREATE TABLE wp_pmxi_history (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	type ENUM('manual','processing','trigger','continue', 'cli', '') NOT NULL DEFAULT '',	
+	time_run TEXT,	
+	date DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',		
+	summary TEXT,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_history (
+	id bigserial,
+	import_id BIGINT  NOT NULL,
+	type ENUM('manual','processing','trigger','continue', 'cli', '') NOT NULL DEFAULT '',	
+	time_run TEXT,	
+	"date" timestamp NOT NULL DEFAULT now(),		
+	summary TEXT,
+	PRIMARY KEY  (id)
+);
+----> ERROR:  type "enum" does not exist
+LINE 4:  type ENUM('manual','processing','trigger','continue', 'cli'...
+              ^
+---------------------
+[1746198951.2425] Error running :
+
+CREATE TABLE wp_pmxi_hash (
+	hash BINARY(16) NOT NULL,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id SMALLINT(5) UNSIGNED NOT NULL,
+	post_type VARCHAR(32) NOT NULL DEFAULT '',
+	PRIMARY KEY  (hash)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_hash (
+	hash BINARY(16) NOT NULL,
+	post_id BIGINT  NOT NULL,
+	import_id SMALLINT  NOT NULL,
+	post_type VARCHAR(32) NOT NULL DEFAULT '',
+	PRIMARY KEY  (hash)
+);
+----> ERROR:  type "binary" does not exist
+LINE 2:  hash BINARY(16) NOT NULL,
+              ^
+---------------------
+[1746198968.0994] Error running :
+
+CREATE TABLE wp_pmxi_imports (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	parent_import_id BIGINT(20) NOT NULL DEFAULT 0,
+	name TEXT,
+	friendly_name VARCHAR(255) NOT NULL DEFAULT '',
+	type VARCHAR(32) NOT NULL DEFAULT '',
+	feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT '',	
+	path TEXT,	
+	xpath TEXT,		
+	options LONGTEXT,		
+	registered_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',				
+  	root_element VARCHAR(255) DEFAULT '',
+  	processing BOOL NOT NULL DEFAULT 0,
+  	executing BOOL NOT NULL DEFAULT 0,
+  	triggered BOOL NOT NULL DEFAULT 0,
+  	queue_chunk_number BIGINT(20) NOT NULL DEFAULT 0,  	
+  	first_import TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,	
+  	count BIGINT(20) NOT NULL DEFAULT 0,
+  	imported BIGINT(20) NOT NULL DEFAULT 0,
+  	created BIGINT(20) NOT NULL DEFAULT 0,
+  	updated BIGINT(20) NOT NULL DEFAULT 0,
+  	skipped BIGINT(20) NOT NULL DEFAULT 0,
+  	deleted BIGINT(20) NOT NULL DEFAULT 0,
+  	changed_missing BIGINT(20) NOT NULL DEFAULT 0,
+  	canceled BOOL NOT NULL DEFAULT 0,  	
+  	canceled_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	failed BOOL NOT NULL DEFAULT 0,  	
+  	failed_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	settings_update_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	last_activity DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',			
+  	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_imports (
+	id bigserial,
+	parent_import_id BIGINT NOT NULL DEFAULT 0,
+	name TEXT,
+	friendly_name VARCHAR(255) NOT NULL DEFAULT '',
+	type VARCHAR(32) NOT NULL DEFAULT '',
+	feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT '',	
+	path TEXT,	
+	xpath TEXT,		
+	options text,		
+	registered_on timestamp NOT NULL DEFAULT now(),				
+  	root_element VARCHAR(255) DEFAULT '',
+  	processing BOOL NOT NULL DEFAULT 0,
+  	executing BOOL NOT NULL DEFAULT 0,
+  	triggered BOOL NOT NULL DEFAULT 0,
+  	queue_chunk_number BIGINT NOT NULL DEFAULT 0,  	
+  	first_import TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,	
+  	count BIGINT NOT NULL DEFAULT 0,
+  	imported BIGINT NOT NULL DEFAULT 0,
+  	created BIGINT NOT NULL DEFAULT 0,
+  	updated BIGINT NOT NULL DEFAULT 0,
+  	skipped BIGINT NOT NULL DEFAULT 0,
+  	deleted BIGINT NOT NULL DEFAULT 0,
+  	changed_missing BIGINT NOT NULL DEFAULT 0,
+  	canceled BOOL NOT NULL DEFAULT 0,  	
+  	canceled_on timestamp NOT NULL DEFAULT now(),
+  	failed BOOL NOT NULL DEFAULT 0,  	
+  	failed_on timestamp NOT NULL DEFAULT now(),
+  	settings_update_on timestamp NOT NULL DEFAULT now(),
+  	last_activity timestamp NOT NULL DEFAULT now(),			
+  	iteration BIGINT NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)
+);
+----> ERROR:  type "enum" does not exist
+LINE 7:  feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT ...
+                   ^
+---------------------
+[1746198968.1099] Error running :
+
+CREATE TABLE wp_pmxi_posts (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	unique_key TEXT,
+	product_key TEXT,
+	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	specified BOOL NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)  		
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_posts (
+	id bigserial,
+	post_id BIGINT  NOT NULL,
+	import_id BIGINT  NOT NULL,
+	unique_key TEXT,
+	product_key TEXT,
+	iteration BIGINT NOT NULL DEFAULT 0,
+	specified BOOL NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)  		
+);
+----> ERROR:  column "specified" is of type boolean but default expression is of type integer
+HINT:  You will need to rewrite or cast the expression.
+---------------------
+[1746198968.1187] Error running :
+
+CREATE TABLE wp_pmxi_history (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	type ENUM('manual','processing','trigger','continue', 'cli', '') NOT NULL DEFAULT '',	
+	time_run TEXT,	
+	date DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',		
+	summary TEXT,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_history (
+	id bigserial,
+	import_id BIGINT  NOT NULL,
+	type ENUM('manual','processing','trigger','continue', 'cli', '') NOT NULL DEFAULT '',	
+	time_run TEXT,	
+	"date" timestamp NOT NULL DEFAULT now(),		
+	summary TEXT,
+	PRIMARY KEY  (id)
+);
+----> ERROR:  type "enum" does not exist
+LINE 4:  type ENUM('manual','processing','trigger','continue', 'cli'...
+              ^
+---------------------
+[1746198968.127] Error running :
+
+CREATE TABLE wp_pmxi_hash (
+	hash BINARY(16) NOT NULL,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id SMALLINT(5) UNSIGNED NOT NULL,
+	post_type VARCHAR(32) NOT NULL DEFAULT '',
+	PRIMARY KEY  (hash)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci
+---- converted to ----
+CREATE TABLE IF NOT EXISTS wp_pmxi_hash (
+	hash BINARY(16) NOT NULL,
+	post_id BIGINT  NOT NULL,
+	import_id SMALLINT  NOT NULL,
+	post_type VARCHAR(32) NOT NULL DEFAULT '',
+	PRIMARY KEY  (hash)
+);
+----> ERROR:  type "binary" does not exist
+LINE 2:  hash BINARY(16) NOT NULL,
+              ^
+---------------------
+[1746208415.6538] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1746208417.0754] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1746208417.246] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1746208417.4255] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1746208417.6099] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1746208426.433] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1746208427.7418] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts.ID = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'building_type' AND mt1.meta_value = 'brick' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts."ID" = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'building_type' AND mt1.meta_value = 'brick' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1746208566.6594] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1746208687.7941] Error running :
+SELECT FOUND_ROWS()
+---- converted to ----
+SELECT COUNT(*) FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 ) DESC
+----> ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^
+---------------------
+[1748870054.834] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1748870054.8396] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1748870054.8419] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1748870056.7617] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1748870056.7688] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1748870056.7712] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1748870138.2266] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1748870137.5686] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1748870137.5716] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1748870605.6449] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1748870605.6575] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1748870605.6612] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "wp_options" does not exist
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1748991847.7475] Error running :
+SELECT YEAR(post_date) AS `year`, MONTH(post_date) AS `month`, count(ID) as posts FROM wp_posts  WHERE post_type = 'post' AND post_status = 'publish' GROUP BY YEAR(post_date), MONTH(post_date) ORDER BY post_date DESC 
+---- converted to ----
+SELECT EXTRACT(YEAR FROM post_date) AS year, EXTRACT(MONTH FROM post_date) AS month, count( "ID" ) as posts, EXTRACT(MONTH FROM post_date) ORDER BY post_date FROM wp_posts WHERE post_type = 'post' AND post_status = 'publish' GROUP BY EXTRACT(YEAR FROM post_date) AS year, EXTRACT(MONTH FROM post_date) AS month, EXTRACT(MONTH FROM post_date) ORDER BY post_date
+----> ERROR:  syntax error at or near "FROM"
+LINE 1: ... EXTRACT(MONTH FROM post_date) ORDER BY post_date FROM wp_po...
+                                                             ^
+---------------------
+[1749000216.6365] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'екологічність'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'екологічність'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1749000230.1215] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'екологічність'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'екологічність'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1749000259.1394] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'екологічність'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'екологічність'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------

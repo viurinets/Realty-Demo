@@ -1,0 +1,1975 @@
+[02-May-2025 06:58:15 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: connection to server at "be9jmmhhjwmxpo2rewcp-postgresql.services.clever-cloud.com" (91.208.207.32), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 06:58:16 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('uzdbbm1bnfvh97e...', 'Crcph185tIQqz4d...', 'be9jmmhhjwmxpo2...', 'be9jmmhhjwmxpo2...')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 06:58:18 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: connection to server at "be9jmmhhjwmxpo2rewcp-postgresql.services.clever-cloud.com" (91.208.207.32), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 06:58:18 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('uzdbbm1bnfvh97e...', 'Crcph185tIQqz4d...', 'be9jmmhhjwmxpo2...', 'be9jmmhhjwmxpo2...')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 06:58:18 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: connection to server at "be9jmmhhjwmxpo2rewcp-postgresql.services.clever-cloud.com" (91.208.207.32), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 06:58:18 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('uzdbbm1bnfvh97e...', 'Crcph185tIQqz4d...', 'be9jmmhhjwmxpo2...', 'be9jmmhhjwmxpo2...')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 07:00:03 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: connection to server at "be9jmmhhjwmxpo2rewcp-postgresql.services.clever-cloud.com" (91.208.207.32), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 07:00:03 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('uzdbbm1bnfvh97e...', 'Crcph185tIQqz4d...', 'be9jmmhhjwmxpo2...', 'be9jmmhhjwmxpo2...')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 07:00:05 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: connection to server at "be9jmmhhjwmxpo2rewcp-postgresql.services.clever-cloud.com" (91.208.207.32), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 07:00:05 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('uzdbbm1bnfvh97e...', 'Crcph185tIQqz4d...', 'be9jmmhhjwmxpo2...', 'be9jmmhhjwmxpo2...')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 07:00:05 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: connection to server at "be9jmmhhjwmxpo2rewcp-postgresql.services.clever-cloud.com" (91.208.207.32), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 07:00:05 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('uzdbbm1bnfvh97e...', 'Crcph185tIQqz4d...', 'be9jmmhhjwmxpo2...', 'be9jmmhhjwmxpo2...')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 07:00:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1435
+[02-May-2025 07:00:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1438
+[02-May-2025 07:00:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1435
+[02-May-2025 07:00:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1438
+[02-May-2025 07:00:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1435
+[02-May-2025 07:00:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1438
+[02-May-2025 07:03:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1435
+[02-May-2025 07:03:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1438
+[02-May-2025 07:03:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1435
+[02-May-2025 07:03:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1438
+[02-May-2025 07:03:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1435
+[02-May-2025 07:03:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-config.php:64) in /var/www/html/wp-includes/pluggable.php on line 1438
+[02-May-2025 07:34:59 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "posgres" to address: Temporary failure in name resolution in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 07:34:59 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('realtydemo_samp...', 'realtydemo_samp...', 'realtydemo_samp...', 'posgres:5432')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 07:35:08 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "posgres" to address: Temporary failure in name resolution in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 07:35:08 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('realtydemo_samp...', 'realtydemo_samp...', 'realtydemo_samp...', 'posgres:5432')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 08:11:58 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "posgres" to address: Temporary failure in name resolution in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 08:11:58 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('realtydemo_samp...', 'realtydemo_samp...', 'realtydemo_samp...', 'posgres:5432')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 08:12:06 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "posgres" to address: Temporary failure in name resolution in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 08:12:06 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not translate host name "posgres" to address: Temporary failure in name resolution in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 106
+[02-May-2025 08:12:06 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('realtydemo_samp...', 'realtydemo_samp...', 'realtydemo_samp...', 'posgres:5432')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 08:12:06 UTC] PHP Fatal error:  Uncaught Exception: PG4WP: Not Yet Implemented in /var/www/html/wp-content/pg4wp/driver_pgsql.php:356
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3936): wpsqli_connect_errno()
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2022): wpdb2->bail('<h1>Error estab...', 'db_connect_fail')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(767): wpdb2->db_connect()
+#3 /var/www/html/wp-content/pg4wp/core.php(38): wpdb2->__construct('realtydemo_samp...', 'realtydemo_samp...', 'realtydemo_samp...', 'posgres:5432')
+#4 /var/www/html/wp-content/db.php(53): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-includes/load.php(685): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-settings.php(132): require_wp_db()
+#7 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#10 /var/www/html/index.php(17): require('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 356
+[02-May-2025 14:01:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 557
+[02-May-2025 14:01:31 UTC] PHP Warning:  Undefined array key "term_id" in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 557
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:    progress INT) ENGINE=InnoDB;
+                          ^ for query CREATE TABLE IF NOT EXISTS wp_smackcsv_file_events (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`mode` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_rows` INT(255) NOT NULL,
+			`lock` BOOLEAN DEFAULT false,
+			`progress` INT(6)) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_media (
+			`post_id` INT(6),
+			`attach_id` INT(6) NOT NULL,
+			`image_url` blob NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`status` VARCHAR(255) DEFAULT 'pending',
+			`module` VARCHAR(255) DEFAULT NULL,
+			`image_type` VARCHAR(255) DEFAULT NULL
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 7:      ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_post_entries (
+					`ID` INT(6),
+					`file_name` varchar(255) DEFAULT NULL,
+					`type` varchar(255) DEFAULT NULL,
+					`revision` INT(6),
+					`status` varchar(255) DEFAULT NULL
+					) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_shortcode_manager (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`post_id` INT(6),
+			`post_title` VARCHAR(255) DEFAULT NULL,
+			`image_shortcode` VARCHAR(255) NOT NULL,
+			`media_id` INT(6) DEFAULT NULL,
+			`original_image` TEXT NOT NULL,
+			`indexs` INT(10) DEFAULT NULL,
+			`status` VARCHAR(255) DEFAULT 'failed',
+			`image_meta` TEXT DEFAULT NULL,
+			`hash_key` VARCHAR(255) DEFAULT NULL,
+			`import_type` VARCHAR(10) DEFAULT NULL,
+			`file_name` VARCHAR(100) ,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 13:     ) ENGINE = InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_mappingtemplate (
+			`id` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`templatename` varchar(250) NOT NULL,
+			`mapping` blob NOT NULL,
+			`mapping_filter` blob NOT NULL,
+			`createdtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`deleted` int(1) DEFAULT '0',
+			`templateused` int(10) DEFAULT '0',
+			`mapping_type` varchar(30),
+			`module` varchar(50) DEFAULT NULL,
+			`csvname` varchar(250) DEFAULT NULL,
+			`eventKey` varchar(60) DEFAULT NULL				
+				) ENGINE = InnoDB  made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_import_detail_log (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_records` INT(6),
+			`processing_records` INT(6) default 0,
+			`remaining_records` INT(6) default 0,
+			`filesize` VARCHAR(255) NOT NULL,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_import_log_detail (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`message` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`verify` blob NOT NULL,
+			`categories` VARCHAR(255) NOT NULL,
+			`tags` VARCHAR(255) NOT NULL,
+			`post_id` int(6) NULL
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 31:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_smackuci_events (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`revision` bigint(20) NOT NULL default 0,
+			`name` varchar(255),
+			`original_file_name` varchar(255),
+			`friendly_name` varchar(255),
+			`import_type` varchar(32),
+			`filetype` text,
+			`filepath` text,
+			`eventKey` varchar(32),
+			`registered_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`parent_node` varchar(255),
+			`processing` tinyint(1) NOT NULL default 0,
+			`executing` tinyint(1) NOT NULL default 0,
+			`triggered` tinyint(1) NOT NULL default 0,
+			`event_started_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`count` bigint(20) NOT NULL default 0,
+			`processed` bigint(20) NOT NULL default 0,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`deleted` bigint(20) NOT NULL default 0,
+			`is_terminated` tinyint(1) NOT NULL default 0,
+			`terminated_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`last_activity` datetime NOT NULL default '0000-00-00 00:00:00',
+			`siteid` int(11) NOT NULL DEFAULT 1,
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL,
+			`deletelog` BOOLEAN DEFAULT false
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_acf_fields (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`groupId` varchar(100) NOT NULL,
+			`fieldId` varchar(100) NOT NULL,
+			`fieldLabel` varchar(100) NOT NULL,
+			`fieldName` varchar(100) NOT NULL,
+			`fieldType` varchar(60) NOT NULL,
+			`fdOption` varchar(100) DEFAULT NULL,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 9:    ) ENGINE=InnoDB;
+             ^ for query CREATE TABLE IF NOT EXISTS wp_cli_csv_template (
+			`ID` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`template_name` varchar(255) DEFAULT NULL,
+			`file_name` varchar(255) DEFAULT NULL,
+			`type` varchar(255) DEFAULT NULL,
+			`templatekey` varchar(32) NOT NuLL,	
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL					
+			) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 11:       ) ENGINE=InnoDB;
+                 ^ for query 
+    	CREATE TABLE IF NOT EXISTS wp_summary (
+        `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        `event_id` VARCHAR(255) NOT NULL,
+        `post_id` INT  NULL,
+        `post_title` VARCHAR(255)  NULL,
+        `post_type` VARCHAR(255)  NULL,
+        `status` VARCHAR(255)  NULL,
+        `is_category` TINYINT NOT NULL,
+        `associated_media` INT(250)  NULL,
+        `failed_media` INT(250)  NULL
+    		) ENGINE=InnoDB;
+			 made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 15:   ) ENGINE=InnoDB;
+             ^ for query 
+		CREATE TABLE IF NOT EXISTS wp_failed_media (
+		`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+		`event_id` VARCHAR(255) NOT NULL,
+		`post_id` INT NOT NULL,
+		`media_id` INT NOT NULL,
+		`title` VARCHAR(255)  NULL,
+		`file_name` VARCHAR(255)  NULL,
+		`caption` VARCHAR(255)  NULL,
+		`description` VARCHAR(255)  NULL,
+		`alt_text` VARCHAR(255)  NULL,
+		`actual_url` VARCHAR(255)  NULL,
+		`file_url` VARCHAR(255)  NULL,
+		`status` VARCHAR(255)  NULL
+
+		) ENGINE=InnoDB;
+		 made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:28 UTC] PHP Fatal error:  Uncaught Exception: Invalid or unsupported SQL statement. in /var/www/html/wp-content/pg4wp/driver_pgsql_rewrite.php:26
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/driver_pgsql_rewrite.php(40): createSQLRewriter('SHOW COLUMNS FR...')
+#1 /var/www/html/wp-content/pg4wp/driver_pgsql.php(523): pg4wp_rewrite('SHOW COLUMNS FR...')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2344): wpsqli_query(Object(PgSql\Connection), 'SHOW COLUMNS FR...')
+#3 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2258): wpdb2->_do_query('SHOW COLUMNS FR...')
+#4 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3026): wpdb2->query('SHOW COLUMNS FR...')
+#5 /var/www/html/wp-content/plugins/wp-ultimate-csv-importer/Tables.php(232): wpdb2->get_var('SHOW COLUMNS FR...')
+#6 /var/www/html/wp-content/plugins/wp-ultimate-csv-importer/SmackCSVImporterInstall.php(87): Smackcoders\FCSV\Tables->create_tables()
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): Smackcoders\FCSV\SmackCSVInstall->install(false)
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-admin/includes/plugin.php(703): do_action('activate_wp-ult...', false)
+#11 /var/www/html/wp-admin/plugins.php(60): activate_plugin('wp-ultimate-csv...', 'http://localhos...', false)
+#12 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql_rewrite.php on line 26
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:    progress INT) ENGINE=InnoDB;
+                          ^ for query CREATE TABLE IF NOT EXISTS wp_smackcsv_file_events (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`mode` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_rows` INT(255) NOT NULL,
+			`lock` BOOLEAN DEFAULT false,
+			`progress` INT(6)) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_media (
+			`post_id` INT(6),
+			`attach_id` INT(6) NOT NULL,
+			`image_url` blob NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`status` VARCHAR(255) DEFAULT 'pending',
+			`module` VARCHAR(255) DEFAULT NULL,
+			`image_type` VARCHAR(255) DEFAULT NULL
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 7:      ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_post_entries (
+					`ID` INT(6),
+					`file_name` varchar(255) DEFAULT NULL,
+					`type` varchar(255) DEFAULT NULL,
+					`revision` INT(6),
+					`status` varchar(255) DEFAULT NULL
+					) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_shortcode_manager (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`post_id` INT(6),
+			`post_title` VARCHAR(255) DEFAULT NULL,
+			`image_shortcode` VARCHAR(255) NOT NULL,
+			`media_id` INT(6) DEFAULT NULL,
+			`original_image` TEXT NOT NULL,
+			`indexs` INT(10) DEFAULT NULL,
+			`status` VARCHAR(255) DEFAULT 'failed',
+			`image_meta` TEXT DEFAULT NULL,
+			`hash_key` VARCHAR(255) DEFAULT NULL,
+			`import_type` VARCHAR(10) DEFAULT NULL,
+			`file_name` VARCHAR(100) ,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 13:     ) ENGINE = InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_mappingtemplate (
+			`id` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`templatename` varchar(250) NOT NULL,
+			`mapping` blob NOT NULL,
+			`mapping_filter` blob NOT NULL,
+			`createdtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`deleted` int(1) DEFAULT '0',
+			`templateused` int(10) DEFAULT '0',
+			`mapping_type` varchar(30),
+			`module` varchar(50) DEFAULT NULL,
+			`csvname` varchar(250) DEFAULT NULL,
+			`eventKey` varchar(60) DEFAULT NULL				
+				) ENGINE = InnoDB  made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_import_detail_log (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_records` INT(6),
+			`processing_records` INT(6) default 0,
+			`remaining_records` INT(6) default 0,
+			`filesize` VARCHAR(255) NOT NULL,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_import_log_detail (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`message` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`verify` blob NOT NULL,
+			`categories` VARCHAR(255) NOT NULL,
+			`tags` VARCHAR(255) NOT NULL,
+			`post_id` int(6) NULL
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 31:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_smackuci_events (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`revision` bigint(20) NOT NULL default 0,
+			`name` varchar(255),
+			`original_file_name` varchar(255),
+			`friendly_name` varchar(255),
+			`import_type` varchar(32),
+			`filetype` text,
+			`filepath` text,
+			`eventKey` varchar(32),
+			`registered_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`parent_node` varchar(255),
+			`processing` tinyint(1) NOT NULL default 0,
+			`executing` tinyint(1) NOT NULL default 0,
+			`triggered` tinyint(1) NOT NULL default 0,
+			`event_started_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`count` bigint(20) NOT NULL default 0,
+			`processed` bigint(20) NOT NULL default 0,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`deleted` bigint(20) NOT NULL default 0,
+			`is_terminated` tinyint(1) NOT NULL default 0,
+			`terminated_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`last_activity` datetime NOT NULL default '0000-00-00 00:00:00',
+			`siteid` int(11) NOT NULL DEFAULT 1,
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL,
+			`deletelog` BOOLEAN DEFAULT false
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_acf_fields (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`groupId` varchar(100) NOT NULL,
+			`fieldId` varchar(100) NOT NULL,
+			`fieldLabel` varchar(100) NOT NULL,
+			`fieldName` varchar(100) NOT NULL,
+			`fieldType` varchar(60) NOT NULL,
+			`fdOption` varchar(100) DEFAULT NULL,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 9:    ) ENGINE=InnoDB;
+             ^ for query CREATE TABLE IF NOT EXISTS wp_cli_csv_template (
+			`ID` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`template_name` varchar(255) DEFAULT NULL,
+			`file_name` varchar(255) DEFAULT NULL,
+			`type` varchar(255) DEFAULT NULL,
+			`templatekey` varchar(32) NOT NuLL,	
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL					
+			) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 11:       ) ENGINE=InnoDB;
+                 ^ for query 
+    	CREATE TABLE IF NOT EXISTS wp_summary (
+        `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        `event_id` VARCHAR(255) NOT NULL,
+        `post_id` INT  NULL,
+        `post_title` VARCHAR(255)  NULL,
+        `post_type` VARCHAR(255)  NULL,
+        `status` VARCHAR(255)  NULL,
+        `is_category` TINYINT NOT NULL,
+        `associated_media` INT(250)  NULL,
+        `failed_media` INT(250)  NULL
+    		) ENGINE=InnoDB;
+			 made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 15:   ) ENGINE=InnoDB;
+             ^ for query 
+		CREATE TABLE IF NOT EXISTS wp_failed_media (
+		`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+		`event_id` VARCHAR(255) NOT NULL,
+		`post_id` INT NOT NULL,
+		`media_id` INT NOT NULL,
+		`title` VARCHAR(255)  NULL,
+		`file_name` VARCHAR(255)  NULL,
+		`caption` VARCHAR(255)  NULL,
+		`description` VARCHAR(255)  NULL,
+		`alt_text` VARCHAR(255)  NULL,
+		`actual_url` VARCHAR(255)  NULL,
+		`file_url` VARCHAR(255)  NULL,
+		`status` VARCHAR(255)  NULL
+
+		) ENGINE=InnoDB;
+		 made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:43 UTC] PHP Fatal error:  Uncaught Exception: Invalid or unsupported SQL statement. in /var/www/html/wp-content/pg4wp/driver_pgsql_rewrite.php:26
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/driver_pgsql_rewrite.php(40): createSQLRewriter('SHOW COLUMNS FR...')
+#1 /var/www/html/wp-content/pg4wp/driver_pgsql.php(523): pg4wp_rewrite('SHOW COLUMNS FR...')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2344): wpsqli_query(Object(PgSql\Connection), 'SHOW COLUMNS FR...')
+#3 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2258): wpdb2->_do_query('SHOW COLUMNS FR...')
+#4 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3026): wpdb2->query('SHOW COLUMNS FR...')
+#5 /var/www/html/wp-content/plugins/wp-ultimate-csv-importer/Tables.php(232): wpdb2->get_var('SHOW COLUMNS FR...')
+#6 /var/www/html/wp-content/plugins/wp-ultimate-csv-importer/SmackCSVImporterInstall.php(87): Smackcoders\FCSV\Tables->create_tables()
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): Smackcoders\FCSV\SmackCSVInstall->install(false)
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-admin/includes/plugin.php(703): do_action('activate_wp-ult...', false)
+#11 /var/www/html/wp-admin/plugins.php(60): activate_plugin('wp-ultimate-csv...', 'http://localhos...', false)
+#12 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql_rewrite.php on line 26
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:    progress INT) ENGINE=InnoDB;
+                          ^ for query CREATE TABLE IF NOT EXISTS wp_smackcsv_file_events (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`mode` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_rows` INT(255) NOT NULL,
+			`lock` BOOLEAN DEFAULT false,
+			`progress` INT(6)) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_media (
+			`post_id` INT(6),
+			`attach_id` INT(6) NOT NULL,
+			`image_url` blob NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`status` VARCHAR(255) DEFAULT 'pending',
+			`module` VARCHAR(255) DEFAULT NULL,
+			`image_type` VARCHAR(255) DEFAULT NULL
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 7:      ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_post_entries (
+					`ID` INT(6),
+					`file_name` varchar(255) DEFAULT NULL,
+					`type` varchar(255) DEFAULT NULL,
+					`revision` INT(6),
+					`status` varchar(255) DEFAULT NULL
+					) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_shortcode_manager (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`post_id` INT(6),
+			`post_title` VARCHAR(255) DEFAULT NULL,
+			`image_shortcode` VARCHAR(255) NOT NULL,
+			`media_id` INT(6) DEFAULT NULL,
+			`original_image` TEXT NOT NULL,
+			`indexs` INT(10) DEFAULT NULL,
+			`status` VARCHAR(255) DEFAULT 'failed',
+			`image_meta` TEXT DEFAULT NULL,
+			`hash_key` VARCHAR(255) DEFAULT NULL,
+			`import_type` VARCHAR(10) DEFAULT NULL,
+			`file_name` VARCHAR(100) ,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 13:     ) ENGINE = InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_mappingtemplate (
+			`id` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`templatename` varchar(250) NOT NULL,
+			`mapping` blob NOT NULL,
+			`mapping_filter` blob NOT NULL,
+			`createdtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`deleted` int(1) DEFAULT '0',
+			`templateused` int(10) DEFAULT '0',
+			`mapping_type` varchar(30),
+			`module` varchar(50) DEFAULT NULL,
+			`csvname` varchar(250) DEFAULT NULL,
+			`eventKey` varchar(60) DEFAULT NULL				
+				) ENGINE = InnoDB  made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 15:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_import_detail_log (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`file_name` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`templatekey` VARCHAR(32),
+			`total_records` INT(6),
+			`processing_records` INT(6) default 0,
+			`remaining_records` INT(6) default 0,
+			`filesize` VARCHAR(255) NOT NULL,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_import_log_detail (
+			`id` int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			`hash_key` VARCHAR(255) NOT NULL,
+			`message` VARCHAR(255) NOT NULL,
+			`status` VARCHAR(255) NOT NULL,
+			`verify` blob NOT NULL,
+			`categories` VARCHAR(255) NOT NULL,
+			`tags` VARCHAR(255) NOT NULL,
+			`post_id` int(6) NULL
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 31:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_smackuci_events (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`revision` bigint(20) NOT NULL default 0,
+			`name` varchar(255),
+			`original_file_name` varchar(255),
+			`friendly_name` varchar(255),
+			`import_type` varchar(32),
+			`filetype` text,
+			`filepath` text,
+			`eventKey` varchar(32),
+			`registered_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`parent_node` varchar(255),
+			`processing` tinyint(1) NOT NULL default 0,
+			`executing` tinyint(1) NOT NULL default 0,
+			`triggered` tinyint(1) NOT NULL default 0,
+			`event_started_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			`count` bigint(20) NOT NULL default 0,
+			`processed` bigint(20) NOT NULL default 0,
+			`created` bigint(20) NOT NULL default 0,
+			`updated` bigint(20) NOT NULL default 0,
+			`skipped` bigint(20) NOT NULL default 0,
+			`failed` bigint(20) NOT NULL default 0,
+			`deleted` bigint(20) NOT NULL default 0,
+			`is_terminated` tinyint(1) NOT NULL default 0,
+			`terminated_on` datetime NOT NULL default '0000-00-00 00:00:00',
+			`last_activity` datetime NOT NULL default '0000-00-00 00:00:00',
+			`siteid` int(11) NOT NULL DEFAULT 1,
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL,
+			`deletelog` BOOLEAN DEFAULT false
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 10:     ) ENGINE=InnoDB;
+               ^ for query CREATE TABLE IF NOT EXISTS wp_ultimate_csv_importer_acf_fields (
+			`id` int(10) NOT NULL AUTO_INCREMENT,
+			`groupId` varchar(100) NOT NULL,
+			`fieldId` varchar(100) NOT NULL,
+			`fieldLabel` varchar(100) NOT NULL,
+			`fieldName` varchar(100) NOT NULL,
+			`fieldType` varchar(60) NOT NULL,
+			`fdOption` varchar(100) DEFAULT NULL,
+			PRIMARY KEY (`id`)
+				) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 9:    ) ENGINE=InnoDB;
+             ^ for query CREATE TABLE IF NOT EXISTS wp_cli_csv_template (
+			`ID` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			`template_name` varchar(255) DEFAULT NULL,
+			`file_name` varchar(255) DEFAULT NULL,
+			`type` varchar(255) DEFAULT NULL,
+			`templatekey` varchar(32) NOT NuLL,	
+			`month` varchar(60) DEFAULT NULL,
+			`year` varchar(60) DEFAULT NULL					
+			) ENGINE=InnoDB made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 11:       ) ENGINE=InnoDB;
+                 ^ for query 
+    	CREATE TABLE IF NOT EXISTS wp_summary (
+        `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        `event_id` VARCHAR(255) NOT NULL,
+        `post_id` INT  NULL,
+        `post_title` VARCHAR(255)  NULL,
+        `post_type` VARCHAR(255)  NULL,
+        `status` VARCHAR(255)  NULL,
+        `is_category` TINYINT NOT NULL,
+        `associated_media` INT(250)  NULL,
+        `failed_media` INT(250)  NULL
+    		) ENGINE=InnoDB;
+			 made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] WordPress database error ERROR:  syntax error at or near "ENGINE"
+LINE 15:   ) ENGINE=InnoDB;
+             ^ for query 
+		CREATE TABLE IF NOT EXISTS wp_failed_media (
+		`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+		`event_id` VARCHAR(255) NOT NULL,
+		`post_id` INT NOT NULL,
+		`media_id` INT NOT NULL,
+		`title` VARCHAR(255)  NULL,
+		`file_name` VARCHAR(255)  NULL,
+		`caption` VARCHAR(255)  NULL,
+		`description` VARCHAR(255)  NULL,
+		`alt_text` VARCHAR(255)  NULL,
+		`actual_url` VARCHAR(255)  NULL,
+		`file_url` VARCHAR(255)  NULL,
+		`status` VARCHAR(255)  NULL
+
+		) ENGINE=InnoDB;
+		 made by activate_plugin, do_action('activate_wp-ultimate-csv-importer/wp-ultimate-csv-importer.php'), WP_Hook->do_action, WP_Hook->apply_filters, Smackcoders\FCSV\SmackCSVInstall->install, Smackcoders\FCSV\Tables->create_tables
+[02-May-2025 15:13:48 UTC] PHP Fatal error:  Uncaught Exception: Invalid or unsupported SQL statement. in /var/www/html/wp-content/pg4wp/driver_pgsql_rewrite.php:26
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/driver_pgsql_rewrite.php(40): createSQLRewriter('SHOW COLUMNS FR...')
+#1 /var/www/html/wp-content/pg4wp/driver_pgsql.php(523): pg4wp_rewrite('SHOW COLUMNS FR...')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2344): wpsqli_query(Object(PgSql\Connection), 'SHOW COLUMNS FR...')
+#3 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2258): wpdb2->_do_query('SHOW COLUMNS FR...')
+#4 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(3026): wpdb2->query('SHOW COLUMNS FR...')
+#5 /var/www/html/wp-content/plugins/wp-ultimate-csv-importer/Tables.php(232): wpdb2->get_var('SHOW COLUMNS FR...')
+#6 /var/www/html/wp-content/plugins/wp-ultimate-csv-importer/SmackCSVImporterInstall.php(87): Smackcoders\FCSV\Tables->create_tables()
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): Smackcoders\FCSV\SmackCSVInstall->install(false)
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-admin/includes/plugin.php(703): do_action('activate_wp-ult...', false)
+#11 /var/www/html/wp-admin/plugins.php(60): activate_plugin('wp-ultimate-csv...', 'http://localhos...', false)
+#12 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql_rewrite.php on line 26
+[02-May-2025 15:15:41 UTC] WordPress database error ERROR:  type "enum" does not exist
+LINE 7:  feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT ...
+                   ^ for query 
+CREATE TABLE wp_pmxi_imports (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	parent_import_id BIGINT(20) NOT NULL DEFAULT 0,
+	name TEXT,
+	friendly_name VARCHAR(255) NOT NULL DEFAULT '',
+	type VARCHAR(32) NOT NULL DEFAULT '',
+	feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT '',	
+	path TEXT,	
+	xpath TEXT,		
+	options LONGTEXT,		
+	registered_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',				
+  	root_element VARCHAR(255) DEFAULT '',
+  	processing BOOL NOT NULL DEFAULT 0,
+  	executing BOOL NOT NULL DEFAULT 0,
+  	triggered BOOL NOT NULL DEFAULT 0,
+  	queue_chunk_number BIGINT(20) NOT NULL DEFAULT 0,  	
+  	first_import TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,	
+  	count BIGINT(20) NOT NULL DEFAULT 0,
+  	imported BIGINT(20) NOT NULL DEFAULT 0,
+  	created BIGINT(20) NOT NULL DEFAULT 0,
+  	updated BIGINT(20) NOT NULL DEFAULT 0,
+  	skipped BIGINT(20) NOT NULL DEFAULT 0,
+  	deleted BIGINT(20) NOT NULL DEFAULT 0,
+  	changed_missing BIGINT(20) NOT NULL DEFAULT 0,
+  	canceled BOOL NOT NULL DEFAULT 0,  	
+  	canceled_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	failed BOOL NOT NULL DEFAULT 0,  	
+  	failed_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	settings_update_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	last_activity DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',			
+  	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:15:41 UTC] WordPress database error ERROR:  column "specified" is of type boolean but default expression is of type integer
+HINT:  You will need to rewrite or cast the expression. for query 
+CREATE TABLE wp_pmxi_posts (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	unique_key TEXT,
+	product_key TEXT,
+	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	specified BOOL NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)  		
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:15:41 UTC] WordPress database error ERROR:  type "enum" does not exist
+LINE 4:  type ENUM('manual','processing','trigger','continue', 'cli'...
+              ^ for query 
+CREATE TABLE wp_pmxi_history (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	type ENUM('manual','processing','trigger','continue', 'cli', '') NOT NULL DEFAULT '',	
+	time_run TEXT,	
+	date DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',		
+	summary TEXT,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:15:41 UTC] WordPress database error ERROR:  type "binary" does not exist
+LINE 2:  hash BINARY(16) NOT NULL,
+              ^ for query 
+CREATE TABLE wp_pmxi_hash (
+	hash BINARY(16) NOT NULL,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id SMALLINT(5) UNSIGNED NOT NULL,
+	post_type VARCHAR(32) NOT NULL DEFAULT '',
+	PRIMARY KEY  (hash)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:15:41 UTC] PHP Fatal error:  Invalid or unsupported SQL statement. in /var/www/html/wp-content/plugins/wp-all-import/plugin.php on line 811
+[02-May-2025 15:15:51 UTC] WordPress database error ERROR:  type "enum" does not exist
+LINE 7:  feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT ...
+                   ^ for query 
+CREATE TABLE wp_pmxi_imports (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	parent_import_id BIGINT(20) NOT NULL DEFAULT 0,
+	name TEXT,
+	friendly_name VARCHAR(255) NOT NULL DEFAULT '',
+	type VARCHAR(32) NOT NULL DEFAULT '',
+	feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT '',	
+	path TEXT,	
+	xpath TEXT,		
+	options LONGTEXT,		
+	registered_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',				
+  	root_element VARCHAR(255) DEFAULT '',
+  	processing BOOL NOT NULL DEFAULT 0,
+  	executing BOOL NOT NULL DEFAULT 0,
+  	triggered BOOL NOT NULL DEFAULT 0,
+  	queue_chunk_number BIGINT(20) NOT NULL DEFAULT 0,  	
+  	first_import TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,	
+  	count BIGINT(20) NOT NULL DEFAULT 0,
+  	imported BIGINT(20) NOT NULL DEFAULT 0,
+  	created BIGINT(20) NOT NULL DEFAULT 0,
+  	updated BIGINT(20) NOT NULL DEFAULT 0,
+  	skipped BIGINT(20) NOT NULL DEFAULT 0,
+  	deleted BIGINT(20) NOT NULL DEFAULT 0,
+  	changed_missing BIGINT(20) NOT NULL DEFAULT 0,
+  	canceled BOOL NOT NULL DEFAULT 0,  	
+  	canceled_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	failed BOOL NOT NULL DEFAULT 0,  	
+  	failed_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	settings_update_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	last_activity DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',			
+  	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:15:51 UTC] WordPress database error ERROR:  column "specified" is of type boolean but default expression is of type integer
+HINT:  You will need to rewrite or cast the expression. for query 
+CREATE TABLE wp_pmxi_posts (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	unique_key TEXT,
+	product_key TEXT,
+	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	specified BOOL NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)  		
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:15:51 UTC] WordPress database error ERROR:  type "enum" does not exist
+LINE 4:  type ENUM('manual','processing','trigger','continue', 'cli'...
+              ^ for query 
+CREATE TABLE wp_pmxi_history (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	type ENUM('manual','processing','trigger','continue', 'cli', '') NOT NULL DEFAULT '',	
+	time_run TEXT,	
+	date DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',		
+	summary TEXT,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:15:51 UTC] WordPress database error ERROR:  type "binary" does not exist
+LINE 2:  hash BINARY(16) NOT NULL,
+              ^ for query 
+CREATE TABLE wp_pmxi_hash (
+	hash BINARY(16) NOT NULL,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id SMALLINT(5) UNSIGNED NOT NULL,
+	post_type VARCHAR(32) NOT NULL DEFAULT '',
+	PRIMARY KEY  (hash)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:15:51 UTC] PHP Fatal error:  Invalid or unsupported SQL statement. in /var/www/html/wp-content/plugins/wp-all-import/plugin.php on line 811
+[02-May-2025 15:16:08 UTC] WordPress database error ERROR:  type "enum" does not exist
+LINE 7:  feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT ...
+                   ^ for query 
+CREATE TABLE wp_pmxi_imports (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	parent_import_id BIGINT(20) NOT NULL DEFAULT 0,
+	name TEXT,
+	friendly_name VARCHAR(255) NOT NULL DEFAULT '',
+	type VARCHAR(32) NOT NULL DEFAULT '',
+	feed_type ENUM('xml','csv','zip','gz','') NOT NULL DEFAULT '',	
+	path TEXT,	
+	xpath TEXT,		
+	options LONGTEXT,		
+	registered_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',				
+  	root_element VARCHAR(255) DEFAULT '',
+  	processing BOOL NOT NULL DEFAULT 0,
+  	executing BOOL NOT NULL DEFAULT 0,
+  	triggered BOOL NOT NULL DEFAULT 0,
+  	queue_chunk_number BIGINT(20) NOT NULL DEFAULT 0,  	
+  	first_import TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,	
+  	count BIGINT(20) NOT NULL DEFAULT 0,
+  	imported BIGINT(20) NOT NULL DEFAULT 0,
+  	created BIGINT(20) NOT NULL DEFAULT 0,
+  	updated BIGINT(20) NOT NULL DEFAULT 0,
+  	skipped BIGINT(20) NOT NULL DEFAULT 0,
+  	deleted BIGINT(20) NOT NULL DEFAULT 0,
+  	changed_missing BIGINT(20) NOT NULL DEFAULT 0,
+  	canceled BOOL NOT NULL DEFAULT 0,  	
+  	canceled_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	failed BOOL NOT NULL DEFAULT 0,  	
+  	failed_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	settings_update_on DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+  	last_activity DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',			
+  	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:16:08 UTC] WordPress database error ERROR:  column "specified" is of type boolean but default expression is of type integer
+HINT:  You will need to rewrite or cast the expression. for query 
+CREATE TABLE wp_pmxi_posts (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	unique_key TEXT,
+	product_key TEXT,
+	iteration BIGINT(20) NOT NULL DEFAULT 0,
+	specified BOOL NOT NULL DEFAULT 0,
+	PRIMARY KEY  (id)  		
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:16:08 UTC] WordPress database error ERROR:  type "enum" does not exist
+LINE 4:  type ENUM('manual','processing','trigger','continue', 'cli'...
+              ^ for query 
+CREATE TABLE wp_pmxi_history (
+	id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	import_id BIGINT(20) UNSIGNED NOT NULL,
+	type ENUM('manual','processing','trigger','continue', 'cli', '') NOT NULL DEFAULT '',	
+	time_run TEXT,	
+	date DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',		
+	summary TEXT,
+	PRIMARY KEY  (id)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:16:08 UTC] WordPress database error ERROR:  type "binary" does not exist
+LINE 2:  hash BINARY(16) NOT NULL,
+              ^ for query 
+CREATE TABLE wp_pmxi_hash (
+	hash BINARY(16) NOT NULL,
+	post_id BIGINT(20) UNSIGNED NOT NULL,
+	import_id SMALLINT(5) UNSIGNED NOT NULL,
+	post_type VARCHAR(32) NOT NULL DEFAULT '',
+	PRIMARY KEY  (hash)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_wp-all-import/plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->activation, dbDelta
+[02-May-2025 15:16:08 UTC] PHP Fatal error:  Invalid or unsupported SQL statement. in /var/www/html/wp-content/plugins/wp-all-import/plugin.php on line 811
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/File_CSV_DataSource/DataSource.php on line 2196
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:17:43 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/File_CSV_DataSource/DataSource.php on line 2196
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 449
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 637
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2476
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-user.php on line 216
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/csv-importer/csv_importer.php on line 366
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 2527
+[02-May-2025 15:18:02 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 3303
+[02-May-2025 16:26:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:26:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[02-May-2025 16:26:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[02-May-2025 16:26:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/theme-install.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/theme-install.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/user-edit.php(10): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/profile.php(18): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/options-discussion.php(9): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/theme-install.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/theme-install.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/theme-install.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:27:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function document_title_separator() in /var/www/html/wp-content/themes/strongback-theme/functions.php:4
+Stack trace:
+#0 /var/www/html/wp-settings.php(668): include()
+#1 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/functions.php on line 4
+[02-May-2025 16:39:49 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[02-May-2025 16:40:27 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[02-May-2025 17:06:24 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:06:24 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 17:06:24 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:06:24 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 17:06:24 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:06:24 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:09:22 UTC] PHP Fatal error:  Uncaught Error: Class "SB_Filter_Widget" not found in /var/www/html/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /var/www/html/wp-includes/widgets.php(123): WP_Widget_Factory->register('SB_Filter_Widge...')
+#1 /var/www/html/wp-content/plugins/strongback-realestate/strongback-realestate.php(20): register_widget('SB_Filter_Widge...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-includes/widgets.php(1870): do_action('widgets_init')
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /var/www/html/wp-settings.php(700): do_action('init')
+#10 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#13 /var/www/html/index.php(17): require('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-includes/class-wp-widget-factory.php on line 62
+[02-May-2025 17:09:22 UTC] PHP Fatal error:  Uncaught Error: Class "SB_Filter_Widget" not found in /var/www/html/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /var/www/html/wp-includes/widgets.php(123): WP_Widget_Factory->register('SB_Filter_Widge...')
+#1 /var/www/html/wp-content/plugins/strongback-realestate/strongback-realestate.php(20): register_widget('SB_Filter_Widge...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-includes/widgets.php(1870): do_action('widgets_init')
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /var/www/html/wp-settings.php(700): do_action('init')
+#10 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#13 /var/www/html/index.php(17): require('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-includes/class-wp-widget-factory.php on line 62
+[02-May-2025 17:09:27 UTC] PHP Fatal error:  Uncaught Error: Class "SB_Filter_Widget" not found in /var/www/html/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /var/www/html/wp-includes/widgets.php(123): WP_Widget_Factory->register('SB_Filter_Widge...')
+#1 /var/www/html/wp-content/plugins/strongback-realestate/strongback-realestate.php(20): register_widget('SB_Filter_Widge...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-includes/widgets.php(1870): do_action('widgets_init')
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /var/www/html/wp-settings.php(700): do_action('init')
+#10 /var/www/html/wp-config.php(148): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#13 /var/www/html/index.php(17): require('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-includes/class-wp-widget-factory.php on line 62
+[02-May-2025 17:48:34 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:48:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 17:48:34 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:48:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 17:48:34 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:48:34 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:48:51 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:48:51 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 17:48:51 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:48:51 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 17:48:51 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:48:51 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 17:53:35 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_sb_search'), WP_Hook->do_action, WP_Hook->apply_filters, sb_ajax_search, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-May-2025 17:53:37 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_sb_search'), WP_Hook->do_action, WP_Hook->apply_filters, sb_ajax_search, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-May-2025 17:53:37 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_sb_search'), WP_Hook->do_action, WP_Hook->apply_filters, sb_ajax_search, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-May-2025 17:53:37 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_sb_search'), WP_Hook->do_action, WP_Hook->apply_filters, sb_ajax_search, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-May-2025 17:53:37 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_sb_search'), WP_Hook->do_action, WP_Hook->apply_filters, sb_ajax_search, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-May-2025 17:53:46 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_sb_search'), WP_Hook->do_action, WP_Hook->apply_filters, sb_ajax_search, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-May-2025 17:53:47 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts.ID = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'building_type' AND mt1.meta_value = 'brick' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_sb_search'), WP_Hook->do_action, WP_Hook->apply_filters, sb_ajax_search, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-May-2025 17:56:06 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'ecological_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_sb_search'), WP_Hook->do_action, WP_Hook->apply_filters, sb_ajax_search, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-May-2025 17:58:07 UTC] WordPress database error ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^ for query SELECT FOUND_ROWS() made by do_action('wp_ajax_sb_search'), WP_Hook->do_action, WP_Hook->apply_filters, sb_ajax_search, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
+[02-May-2025 18:02:45 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:45 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:45 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:45 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:45 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:45 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:47 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:47 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:47 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:47 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:47 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:47 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:48 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:48 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:48 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:48 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:48 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:48 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:48 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:48 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:48 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:48 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:48 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:48 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:55 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:55 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:55 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:55 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:55 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:55 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:56 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:56 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:56 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:56 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:56 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:56 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:57 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:57 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:57 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:57 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:02:57 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:02:57 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:03:30 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:03:30 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:03:30 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:03:30 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:03:30 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:03:30 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:03:31 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:03:31 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:03:31 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:03:31 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 18:03:31 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 18:03:31 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:39:00 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:39:00 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:39:00 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:39:00 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:39:00 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:39:00 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:39:07 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:39:07 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:39:07 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:39:07 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:39:07 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:39:07 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:21 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:21 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:42:21 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:21 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:42:21 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:21 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:22 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:22 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:42:22 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:22 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:42:22 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:22 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:23 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:23 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:42:23 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:23 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:42:23 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:23 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:31 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:31 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:42:31 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:31 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:42:31 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:42:31 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:12 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:12 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:58:12 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:12 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:58:12 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:12 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:28 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:28 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:58:28 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:28 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:58:28 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:28 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:42 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:58:42 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 20:58:42 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 20:58:42 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:01:04 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:01:04 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:01:04 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:01:04 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:01:04 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:01:04 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:03:12 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:03:12 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:03:12 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:03:12 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:03:12 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:03:12 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:05:16 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:05:16 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:05:16 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:05:16 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:05:16 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:05:16 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:21
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:33:37 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 29
+[02-May-2025 21:33:37 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:33:37 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 29
+[02-May-2025 21:33:37 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:33:37 UTC] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 29
+[02-May-2025 21:33:37 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:29
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 29
+[02-May-2025 21:36:44 UTC] PHP Warning:  Undefined array key "url" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:36:44 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:36:44 UTC] PHP Warning:  Undefined array key "alt" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 22
+[02-May-2025 21:36:56 UTC] PHP Warning:  Undefined array key "url" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:36:56 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:36:56 UTC] PHP Warning:  Undefined array key "alt" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 22
+[02-May-2025 21:37:17 UTC] PHP Warning:  Undefined array key "url" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:37:17 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:37:17 UTC] PHP Warning:  Undefined array key "alt" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 22
+[02-May-2025 21:37:29 UTC] PHP Warning:  Undefined array key "url" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:37:29 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:37:29 UTC] PHP Warning:  Undefined array key "alt" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 22
+[02-May-2025 21:53:56 UTC] PHP Warning:  Undefined array key "url" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 21
+[02-May-2025 21:53:56 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:53:56 UTC] PHP Warning:  Undefined array key "alt" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 22
+[02-May-2025 21:55:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function gen_footer() in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php:89
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 89
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $url in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:09 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/formatting.php on line 4482
+[02-May-2025 21:57:09 UTC] PHP Warning:  Undefined variable $alt in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 32
+[02-May-2025 21:57:26 UTC] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 40
+[02-May-2025 22:15:18 UTC] PHP Warning:  Undefined array key "room_images" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 55
+[02-May-2025 22:16:43 UTC] PHP Warning:  Undefined array key "room_images" in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 60
+[02-May-2025 22:19:31 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:31 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:31 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:31 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:31 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:31 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:59 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:59 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:59 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:59 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:59 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:19:59 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:22:05 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 61
+[02-May-2025 22:22:39 UTC] PHP Warning:  Undefined variable $ri in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 63
+[02-May-2025 22:22:39 UTC] PHP Warning:  Undefined variable $ri in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 67
+[02-May-2025 22:22:39 UTC] PHP Warning:  Undefined variable $ri in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 63
+[02-May-2025 22:22:39 UTC] PHP Warning:  Undefined variable $ri in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 67
+[02-May-2025 22:22:39 UTC] PHP Warning:  Undefined variable $ri in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 63
+[02-May-2025 22:22:39 UTC] PHP Warning:  Undefined variable $ri in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 67
+[02-May-2025 22:24:03 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 63
+[02-May-2025 22:24:03 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 67
+[02-May-2025 22:24:03 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 63
+[02-May-2025 22:24:03 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 67
+[02-May-2025 22:24:03 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 63
+[02-May-2025 22:24:03 UTC] PHP Warning:  Undefined variable $rlist in /var/www/html/wp-content/themes/strongback-theme/single-real_estate.php on line 67
+[02-Jun-2025 13:14:16 UTC] PHP Warning:  pg_query(): Query failed: ERROR:  relation "wp_options" does not exist
+LINE 4:     WHERE  i.indrelid = 'wp_options'::regclass
+                                ^ in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 478
+[02-Jun-2025 13:14:16 UTC] PHP Fatal error:  Uncaught TypeError: pg_fetch_assoc(): Argument #1 ($result) must be of type PgSql\Result, bool given in /var/www/html/wp-content/pg4wp/driver_pgsql.php:555
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/driver_pgsql.php(555): pg_fetch_assoc(false)
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2344): wpsqli_query(Object(PgSql\Connection), 'INSERT INTO `wp...')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2258): wpdb2->_do_query('INSERT INTO `wp...')
+#3 /var/www/html/wp-includes/option.php(1120): wpdb2->query('INSERT INTO `wp...')
+#4 /var/www/html/wp-includes/option.php(2122): add_option('nonce_key', 'j@Q/P#Xf-|;7Wjr...', '', 'off')
+#5 /var/www/html/wp-includes/option.php(2356): add_network_option(1, 'nonce_key', 'j@Q/P#Xf-|;7Wjr...')
+#6 /var/www/html/wp-includes/option.php(1936): update_network_option(1, 'nonce_key', 'j@Q/P#Xf-|;7Wjr...')
+#7 /var/www/html/wp-includes/pluggable.php(2483): update_site_option('nonce_key', 'j@Q/P#Xf-|;7Wjr...')
+#8 /var/www/html/wp-includes/pluggable.php(2516): wp_salt('nonce')
+#9 /var/www/html/wp-includes/pluggable.php(2387): wp_hash('40484|filesyste...', 'nonce')
+#10 /var/www/html/wp-includes/functions.php(1894): wp_create_nonce('filesystem-cred...')
+#11 /var/www/html/wp-admin/includes/file.php(2665): wp_nonce_field('filesystem-cred...', '_fs_nonce', false, true)
+#12 /var/www/html/wp-admin/includes/class-wp-upgrader-skin.php(139): request_filesystem_credentials('', 'ftpsockets', false, '/var/www/html/w...', Array, false)
+#13 /var/www/html/wp-admin/includes/class-automatic-upgrader-skin.php(49): WP_Upgrader_Skin->request_filesystem_credentials(false, '/var/www/html/w...', false)
+#14 /var/www/html/wp-admin/includes/class-wp-upgrader.php(238): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/var/www/html/w...', false)
+#15 /var/www/html/wp-admin/includes/translation-install.php(271): WP_Upgrader->fs_connect(Array)
+#16 /var/www/html/wp-admin/install.php(341): wp_can_install_language_pack()
+#17 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 555
+[02-Jun-2025 13:15:42 UTC] PHP Warning:  pg_query(): Query failed: ERROR:  relation "wp_options" does not exist
+LINE 4:     WHERE  i.indrelid = 'wp_options'::regclass
+                                ^ in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 478
+[02-Jun-2025 13:15:42 UTC] PHP Fatal error:  Uncaught TypeError: pg_fetch_assoc(): Argument #1 ($result) must be of type PgSql\Result, bool given in /var/www/html/wp-content/pg4wp/driver_pgsql.php:555
+Stack trace:
+#0 /var/www/html/wp-content/pg4wp/driver_pgsql.php(555): pg_fetch_assoc(false)
+#1 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2344): wpsqli_query(Object(PgSql\Connection), 'INSERT INTO `wp...')
+#2 /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code(2258): wpdb2->_do_query('INSERT INTO `wp...')
+#3 /var/www/html/wp-includes/option.php(1120): wpdb2->query('INSERT INTO `wp...')
+#4 /var/www/html/wp-includes/option.php(2122): add_option('nonce_key', '{RK9XnT[XI5wJ+....', '', 'off')
+#5 /var/www/html/wp-includes/option.php(2356): add_network_option(1, 'nonce_key', '{RK9XnT[XI5wJ+....')
+#6 /var/www/html/wp-includes/option.php(1936): update_network_option(1, 'nonce_key', '{RK9XnT[XI5wJ+....')
+#7 /var/www/html/wp-includes/pluggable.php(2483): update_site_option('nonce_key', '{RK9XnT[XI5wJ+....')
+#8 /var/www/html/wp-includes/pluggable.php(2516): wp_salt('nonce')
+#9 /var/www/html/wp-includes/pluggable.php(2387): wp_hash('40484|filesyste...', 'nonce')
+#10 /var/www/html/wp-includes/functions.php(1894): wp_create_nonce('filesystem-cred...')
+#11 /var/www/html/wp-admin/includes/file.php(2665): wp_nonce_field('filesystem-cred...', '_fs_nonce', false, true)
+#12 /var/www/html/wp-admin/includes/class-wp-upgrader-skin.php(139): request_filesystem_credentials('', 'ftpsockets', false, '/var/www/html/w...', Array, false)
+#13 /var/www/html/wp-admin/includes/class-automatic-upgrader-skin.php(49): WP_Upgrader_Skin->request_filesystem_credentials(false, '/var/www/html/w...', false)
+#14 /var/www/html/wp-admin/includes/class-wp-upgrader.php(238): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/var/www/html/w...', false)
+#15 /var/www/html/wp-admin/includes/translation-install.php(271): WP_Upgrader->fs_connect(Array)
+#16 /var/www/html/wp-admin/install.php(341): wp_can_install_language_pack()
+#17 {main}
+  thrown in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 555
+[02-Jun-2025 13:26:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 557
+[02-Jun-2025 13:26:10 UTC] PHP Warning:  Undefined array key "term_id" in /var/www/html/wp-content/pg4wp/driver_pgsql.php on line 557
+[02-Jun-2025 23:12:55 UTC] PHP Notice:  Function register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>realty/v1/objects</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/html/wp-includes/functions.php on line 6085
+[02-Jun-2025 23:12:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-includes/functions.php:6085) in /var/www/html/wp-admin/admin-header.php on line 9
+[02-Jun-2025 23:12:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-includes/functions.php:6085) in /var/www/html/wp-includes/option.php on line 1692
+[02-Jun-2025 23:12:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-includes/functions.php:6085) in /var/www/html/wp-includes/option.php on line 1693
+[02-Jun-2025 23:32:28 UTC] PHP Notice: A feed could not be found at `https://wordpress.org/`; the status code is `200` and content-type is `text/html; charset=UTF-8` in /var/www/html/wp-includes/class-simplepie.php on line 1786
+[03-Jun-2025 22:10:36 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[03-Jun-2025 22:12:52 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[03-Jun-2025 22:54:02 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[03-Jun-2025 22:54:16 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/wp-includes/class-wp-customize-widgets.php on line 905
+[03-Jun-2025 23:03:25 UTC] PHP Notice: A feed could not be found at `https://wordpress.org/`; the status code is `200` and content-type is `text/html; charset=UTF-8` in /var/www/html/wp-includes/class-simplepie.php on line 1786
+[03-Jun-2025 23:04:07 UTC] WordPress database error ERROR:  syntax error at or near "FROM"
+LINE 1: ... EXTRACT(MONTH FROM post_date) ORDER BY post_date FROM wp_po...
+                                                             ^ for query SELECT YEAR(post_date) AS `year`, MONTH(post_date) AS `month`, count(ID) as posts FROM wp_posts  WHERE post_type = 'post' AND post_status = 'publish' GROUP BY YEAR(post_date), MONTH(post_date) ORDER BY post_date DESC  made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Block_Renderer_Controller->get_item, render_block, WP_Block->render, render_block_core_archives, wp_get_archives
+[03-Jun-2025 23:04:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code:1845) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1831
+[03-Jun-2025 23:04:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/pg4wp/core.php(34) : eval()'d code:1845) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1855
+[04-Jun-2025 01:23:36 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'екологічність'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_real_estate_ajax_filter'), WP_Hook->do_action, WP_Hook->apply_filters, real_estate_ajax_filter, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[04-Jun-2025 01:23:50 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'екологічність'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_real_estate_ajax_filter'), WP_Hook->do_action, WP_Hook->apply_filters, real_estate_ajax_filter, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[04-Jun-2025 01:24:19 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'екологічність'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_real_estate_ajax_filter'), WP_Hook->do_action, WP_Hook->apply_filters, real_estate_ajax_filter, WP_Query->__construct, WP_Query->query, WP_Query->get_posts

@@ -1,0 +1,747 @@
+# Translation of Themes - Understrap in Ukrainian
+# This file is distributed under the same license as the Themes - Understrap package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-12-26 18:48:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Themes - Understrap\n"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Understrap"
+msgstr "Understrap"
+
+#: woocommerce/order/order-again.php:22
+msgid "Order again"
+msgstr "Замовити ще раз"
+
+#: woocommerce/checkout/form-verify-email.php:56
+msgid "Verify"
+msgstr "Підтвердити"
+
+#: woocommerce/checkout/form-verify-email.php:33
+msgid "We were unable to verify the email address you provided. Please try again."
+msgstr "Нам не вдалося підтвердити вказану вами адресу електронної пошти. Будь ласка, спробуйте ще раз."
+
+#. translators: %s is the product name
+#: woocommerce/cart/cart.php:66
+msgid "Remove %s from cart"
+msgstr "Видалити %s з кошика"
+
+#. translators: 1: opening login link 2: closing login link
+#: woocommerce/checkout/form-verify-email.php:40
+msgid "To view this page, you must either %1$slogin%2$s or verify the email address associated with the order."
+msgstr "Щоб переглянути цю сторінку, вам потрібно %1$sувійти%2$s або підтвердити адресу електронної пошти, пов’язану із замовленням."
+
+#: inc/pagination.php:54
+msgctxt "next set of posts"
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: inc/pagination.php:53
+msgctxt "previous set of posts"
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: global-templates/navbar-offcanvas-bootstrap5.php:46
+msgid "Close menu"
+msgstr "Закрити меню"
+
+#: global-templates/navbar-offcanvas-bootstrap5.php:34
+msgid "Open menu"
+msgstr "Відкрити меню"
+
+#: woocommerce/myaccount/my-address.php:63
+msgid "Add"
+msgstr "Додати"
+
+#: woocommerce/myaccount/form-login.php:98
+msgid "A link to set a new password will be sent to your email address."
+msgstr "На вашу електронну пошту буде надіслано посилання для встановлення пароля."
+
+#: woocommerce/cart/cart.php:29
+msgid "Thumbnail image"
+msgstr "Мініатюра зображення"
+
+#: woocommerce/cart/cart.php:28
+msgid "Remove item"
+msgstr "Видалити пункт"
+
+#. translators: %s post title
+#: inc/template-tags.php:136
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Залишити коментар<span class=\"screen-reader-text\"> до %s</span>"
+
+#. Template Name of the theme
+msgid "No Title, Full Width Page"
+msgstr "Без заголовку, Сторінка на всю ширину"
+
+#: inc/customizer.php:95
+msgid "Bootstrap 5"
+msgstr "Bootstrap 5"
+
+#: inc/customizer.php:94
+msgid "Bootstrap 4"
+msgstr "Bootstrap 4"
+
+#: inc/customizer.php:89
+msgid "Bootstrap Version"
+msgstr "Версія Bootstrap"
+
+#: inc/customizer.php:154
+msgid "Offcanvas"
+msgstr "Offcanvas"
+
+#: inc/customizer.php:153
+msgid "Collapse"
+msgstr "Згорнути"
+
+#: inc/customizer.php:90
+msgid "Choose between Bootstrap 4 and Bootstrap 5"
+msgstr "Виберіть між Bootstrap 4 та Bootstrap 5"
+
+#: woocommerce/myaccount/downloads.php:34 woocommerce/myaccount/orders.php:100
+msgid "Browse products"
+msgstr "Перегляд товарів"
+
+#: searchform.php:23
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Пошук &hellip;"
+
+#: searchform.php:21
+msgctxt "label"
+msgid "Search for:"
+msgstr "Пошук:"
+
+#: inc/editor.php:60
+msgid "Blockquote"
+msgstr "Цитата"
+
+#: inc/editor.php:56
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Малий"
+
+#: inc/editor.php:50
+msgid "Lead Paragraph"
+msgstr "Ведучий абзац"
+
+#. translators: %s: author name
+#: author.php:79
+msgid "Posts by %s"
+msgstr "Записи автора %s"
+
+#. translators: %s: author name
+#: author.php:65
+msgid "About %s"
+msgstr "Про %s"
+
+#. translators: %s: author name
+#: author.php:44
+msgctxt "Avatar alt"
+msgid "Profile picture of %s"
+msgstr "Зображення облікового запису %s"
+
+#: 404.php:36
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Схоже, що за цією адресою нічого не знайдено. Можливо, варто спробувати скористатися пошуком?"
+
+#: inc/editor.php:72
+msgid "Cite"
+msgstr "Цитувати"
+
+#: sidebar-templates/sidebar-hero.php:38
+msgctxt "carousel control"
+msgid "Next"
+msgstr "Далі"
+
+#: sidebar-templates/sidebar-hero.php:30
+msgctxt "carousel control"
+msgid "Previous"
+msgstr "Назад"
+
+#: inc/customizer.php:209
+msgid "Footer Site Info"
+msgstr "Інформація про сайт у футері"
+
+#: global-templates/navbar-collapse-bootstrap4.php:18
+#: global-templates/navbar-collapse-bootstrap5.php:18
+#: global-templates/navbar-offcanvas-bootstrap5.php:18
+msgid "Main Navigation"
+msgstr "Головна навігація"
+
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr "Замовлення магазину"
+
+#. translators: %s: Tags of current post
+#: inc/template-tags.php:117
+msgid "Tagged %s"
+msgstr "Позначки %s"
+
+#: inc/template-tags.php:55
+msgctxt "post author"
+msgid "Posted by"
+msgstr "Опубліковано"
+
+#: inc/widgets.php:294
+msgid "Left sidebar widget area"
+msgstr "Ліва бічна колонка"
+
+#: inc/widgets.php:281
+msgid "Right sidebar widget area"
+msgstr "Права бічна колонка"
+
+#: global-templates/navbar-collapse-bootstrap4.php:35
+#: global-templates/navbar-collapse-bootstrap5.php:34
+msgid "Toggle navigation"
+msgstr "Перемкнути навігацію"
+
+#: woocommerce/myaccount/form-login.php:53
+msgid "Log in"
+msgstr "Увійти"
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid "This will be how your name will be displayed in the account section and in reviews"
+msgstr "Так ваше ім'я буде відображатися в розділі облікового запису і при переглядах"
+
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name"
+msgstr "Відображуване ім'я"
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr "Якщо у вас є код купона, будь ласка, застосуйте його нижче."
+
+#: inc/class-wp-bootstrap-navwalker.php:377
+msgid "Add a menu"
+msgstr "Додати меню"
+
+#: inc/pagination.php:56
+msgid "Posts navigation"
+msgstr "Навігація записів"
+
+#: woocommerce/product-searchform.php:26
+msgid "Search for:"
+msgstr "Пошук для:"
+
+#: woocommerce/product-searchform.php:25
+msgid "Search products&hellip;"
+msgstr "Пошук товарів&hellip;"
+
+#: searchform.php:25 searchform.php:28 woocommerce/product-searchform.php:29
+msgctxt "submit button"
+msgid "Search"
+msgstr "Шукати"
+
+#: woocommerce/myaccount/my-address.php:67
+msgid "You have not set up this type of address yet."
+msgstr "Ви ще не налаштували цей тип адреси."
+
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr "Наступні адреси будуть використовуватися на сторінці оформлення замовлення за замовчуванням."
+
+#: woocommerce/cart/cart.php:162 woocommerce/checkout/form-coupon.php:39
+msgid "Apply coupon"
+msgstr "Використати купон"
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/my-orders.php:75 woocommerce/myaccount/orders.php:61
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] "%1$s за %2$s позицію"
+msgstr[1] "%1$s за %2$s позиції"
+msgstr[2] "%1$s за %2$s позицій"
+
+#. translators: %s: post title
+#: comments.php:36
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Один коментар для &ldquo;%s&rdquo;"
+
+#: woocommerce/checkout/form-checkout.php:54
+msgid "Your order"
+msgstr "Ваше замовлення"
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "Ви повинні увійти в систему, щоб провірити."
+
+#. Template Name of the theme
+msgid "Right Sidebar Layout"
+msgstr "Права бічна колонка"
+
+#: inc/custom-header.php:54
+msgid "Default Header Image"
+msgstr "Зображення хедеру за замовчуванням"
+
+#: inc/template-tags.php:308
+msgctxt "Next post link"
+msgid "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
+msgstr "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
+
+#: inc/template-tags.php:305
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+msgstr "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+
+#: woocommerce/myaccount/orders.php:100
+msgid "No order has been made yet."
+msgstr "Ще не було зроблено жодного замовлення."
+
+#: woocommerce/myaccount/my-orders.php:63 woocommerce/myaccount/orders.php:49
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: woocommerce/myaccount/my-orders.php:16
+msgid "Status"
+msgstr "Статус"
+
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Order"
+msgstr "Замовлення"
+
+#: woocommerce/myaccount/form-reset-password.php:45
+msgid "Save"
+msgstr "Записати"
+
+#: woocommerce/myaccount/form-reset-password.php:32
+msgid "Re-enter new password"
+msgstr "Введіть новий пароль повторно"
+
+#: woocommerce/myaccount/form-reset-password.php:28
+msgid "New password"
+msgstr "Новий пароль"
+
+#: woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr "Введіть новий пароль нижче."
+
+#: woocommerce/myaccount/form-lost-password.php:38
+msgid "Reset password"
+msgstr "Скинути пароль"
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "Забули пароль? Будь ласка, введіть ваш логін або адресу електронної пошти. Ви отримаєте електронною поштою посилання для створення нового паролю."
+
+#: woocommerce/myaccount/form-login.php:78
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: woocommerce/myaccount/form-login.php:69
+#: woocommerce/myaccount/form-login.php:106
+msgid "Register"
+msgstr "Зареєструватись"
+
+#: woocommerce/myaccount/form-login.php:38
+msgid "Username or email address"
+msgstr "Ім'я користувача чи адреса електронної пошти"
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:27
+msgid "Shipping address"
+msgstr "Адреса доставки"
+
+#: woocommerce/myaccount/form-edit-account.php:85
+msgid "Save changes"
+msgstr "Зберегти зміни"
+
+#: woocommerce/myaccount/form-edit-account.php:68
+msgid "Confirm new password"
+msgstr "Повторіть новий пароль"
+
+#: woocommerce/myaccount/form-edit-account.php:64
+msgid "New password (leave blank to leave unchanged)"
+msgstr "Новий пароль (залиште порожнім, щоб не змінювати)"
+
+#: woocommerce/myaccount/form-edit-account.php:60
+msgid "Current password (leave blank to leave unchanged)"
+msgstr "Поточний пароль (залиште порожнім, щоб не змінювати)"
+
+#: woocommerce/myaccount/form-edit-account.php:57
+msgid "Password change"
+msgstr "Пароль змінено"
+
+#: woocommerce/checkout/form-verify-email.php:49
+#: woocommerce/myaccount/form-edit-account.php:43
+#: woocommerce/myaccount/form-login.php:85
+msgid "Email address"
+msgstr "Email адреса"
+
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr "Прізвище"
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr "Ім'я"
+
+#: woocommerce/myaccount/downloads.php:34
+msgid "No downloads available yet."
+msgstr "Немає доступних завантажень."
+
+#: woocommerce/global/form-login.php:53 woocommerce/myaccount/form-login.php:56
+msgid "Lost your password?"
+msgstr "Забули ваш пароль?"
+
+#: woocommerce/global/form-login.php:46 woocommerce/myaccount/form-login.php:50
+msgid "Remember me"
+msgstr "Пам'ятати мене"
+
+#: woocommerce/global/form-login.php:50 woocommerce/myaccount/form-login.php:31
+msgid "Login"
+msgstr "Вхід"
+
+#: woocommerce/global/form-login.php:37 woocommerce/myaccount/form-login.php:42
+#: woocommerce/myaccount/form-login.php:92
+msgid "Password"
+msgstr "Пароль"
+
+#: woocommerce/global/form-login.php:33
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Username or email"
+msgstr "Ім'я користувача або Email адреса"
+
+#: woocommerce/checkout/payment.php:45
+msgid "Update totals"
+msgstr "Оновити підсумки"
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:43
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr "Оскільки ваш браузер не підтримує JavaScript (або він вимкнений), будь ласка, натисніть кнопку %1$sОновлення підсумку%2$s перед розміщенням замовлення. Інакше ви можете отримати рахунок на більшу суму, ніж очікуєте, якщо не зробите цього."
+
+#: woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Будь ласка, заповніть ваші дані нижче, щоб побачити доступні способи оплати."
+
+#: woocommerce/checkout/form-pay.php:89
+msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr "На жаль, здається, у нас відсутні доступні способи оплати для Вашого місця розташування. Будь ласка, зв'яжіться з нами, якщо Вам потрібна допомога або Ви хочете скористатись альтернативними способами оплати."
+
+#: woocommerce/myaccount/my-orders.php:37
+msgid "Recent orders"
+msgstr "Останні замовлення"
+
+#: woocommerce/myaccount/form-edit-address.php:46
+msgid "Save address"
+msgstr "Зберегти адресу"
+
+#. Template Name of the theme
+msgid "Left Sidebar Layout"
+msgstr "Ліва бічна колонка"
+
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Date"
+msgstr "Дата"
+
+#: woocommerce/myaccount/orders.php:93
+msgid "Next"
+msgstr "Далі"
+
+#: woocommerce/myaccount/orders.php:89
+msgid "Previous"
+msgstr "Попередній"
+
+#: woocommerce/checkout/payment.php:33
+msgid "Sorry, it seems that there are no available payment methods. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr "Вибачте, але здається, у нас відсутні доступні способи оплати для Вашого місця розташування. Будь ласка, зв'яжіться з нами, якщо Вам потрібна допомога або Ви хочете скористатись альтернативними способами оплати."
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/myaccount/my-address.php:35
+msgid "Billing address"
+msgstr "Адреса виставлення рахунку"
+
+#. Template Name of the theme
+msgid "Left and Right Sidebar Layout"
+msgstr "Компонування лівої і правої бічних колонок"
+
+#: woocommerce/checkout/form-pay.php:29
+msgid "Totals"
+msgstr "Загалом"
+
+#: woocommerce/checkout/form-pay.php:28
+msgid "Qty"
+msgstr "К-ть"
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr "Натисніть тут, щоб ввести код купону знижки"
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr "Маєте купон знижки?"
+
+#: woocommerce/cart/proceed-to-checkout-button.php:25
+msgid "Proceed to checkout"
+msgstr "Оформити замовлення"
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:144
+msgid "Subtotal"
+msgstr "Попередній підсумок"
+
+#: woocommerce/cart/cart.php:167
+msgid "Update cart"
+msgstr "Оновити кошик"
+
+#: woocommerce/cart/cart.php:162 woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr "Код купону"
+
+#: woocommerce/cart/cart.php:162 woocommerce/checkout/form-coupon.php:34
+msgid "Coupon:"
+msgstr "Купон:"
+
+#: woocommerce/cart/cart.php:107
+msgid "Available on backorder"
+msgstr "Доступний для повернення"
+
+#: woocommerce/myaccount/my-orders.php:17
+msgid "Total"
+msgstr "Загалом"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:118
+msgid "Quantity"
+msgstr "Кількість"
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:112
+msgid "Price"
+msgstr "Ціна"
+
+#: woocommerce/cart/cart-empty.php:36
+msgid "Return to shop"
+msgstr "Повернутися до магазину"
+
+#: inc/template-tags.php:301
+msgid "Post navigation"
+msgstr "Навігація по публікаціям"
+
+#: inc/customizer.php:187
+msgid "No sidebar"
+msgstr "Без бічної колонки"
+
+#: inc/customizer.php:185
+msgid "Left sidebar"
+msgstr "Ліва бічна колонка"
+
+#: inc/customizer.php:184
+msgid "Right sidebar"
+msgstr "Права бічна колонка"
+
+#: inc/customizer.php:117
+msgid "Container Width"
+msgstr "Ширина контейнера"
+
+#. translators: Widget area title
+#: inc/widgets.php:292
+msgid "Left Sidebar"
+msgstr "Ліва бічна колонка"
+
+#. translators: Widget area title
+#: inc/widgets.php:279
+msgid "Right Sidebar"
+msgstr "Права бічна колонка"
+
+#: inc/customizer.php:176
+msgid "Sidebar Positioning"
+msgstr "Положення бічної колонки"
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:87
+#: woocommerce/checkout/form-pay.php:27
+msgid "Product"
+msgstr "Товар"
+
+#: inc/customizer.php:67
+msgid "Theme Layout Settings"
+msgstr "Налаштування компонування теми"
+
+#: inc/customizer.php:123
+msgid "Full width container"
+msgstr "Контейнер на всю ширину"
+
+#: inc/customizer.php:186
+msgid "Left & Right sidebars"
+msgstr "Ліва і права бічна колонка"
+
+#: inc/customizer.php:69
+msgid "Container width and sidebar defaults"
+msgstr "Ширина контейнера та бічна колонка за замовчуванням"
+
+#: inc/customizer.php:122
+msgid "Fixed width container"
+msgstr "Контейнер фіксованої ширини"
+
+#. Template Name of the theme
+msgid "Blank Page Template"
+msgstr "Шаблон порожньої сторінки"
+
+#. translators: Theme version
+#: inc/hooks.php:44
+msgid "Version: %s"
+msgstr "Версія %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:272
+msgid "Edit %s"
+msgstr "Редагувати %s"
+
+#. Template Name of the theme
+msgid "Full Width Page"
+msgstr "Сторінка на всю ширину"
+
+#: inc/template-tags.php:331
+msgid "Pages:"
+msgstr "Сторінки:"
+
+#. translators: %s: query term
+#: search.php:38
+msgid "Search Results for: %s"
+msgstr "Результати пошуку для:%s"
+
+#. translators: 1: Link to WP admin new post page.
+#: loop-templates/content-none.php:30
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готові опублікувати свій перший запис? <a href=\"%1$s\">Почніть звідси</a>."
+
+#. translators: Widget area title
+#: inc/widgets.php:344
+msgid "Footer Full"
+msgstr "Повний підвал"
+
+#: woocommerce/myaccount/my-address.php:63
+msgid "Edit"
+msgstr "Редагувати"
+
+#. translators: %s: Categories of current post
+#: inc/template-tags.php:102
+msgid "Posted in %s"
+msgstr "Опубліковано в %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:385
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:55
+msgctxt "post author"
+msgid "by"
+msgstr "від"
+
+#: inc/template-tags.php:41
+msgctxt "post date"
+msgid "Posted on"
+msgstr "Опубліковано"
+
+#: inc/extras.php:247
+msgid "Read More..."
+msgstr "Читати далі..."
+
+#: header.php:33
+msgid "Skip to content"
+msgstr "Перейти до вмісту"
+
+#. translators: 1: Theme name, 2: Theme author
+#: inc/hooks.php:38
+msgid "Theme: %1$s by %2$s."
+msgstr "Шаблон: %1$s автор %2$s."
+
+#. translators: WordPress
+#: inc/hooks.php:33
+msgid "Proudly powered by %s"
+msgstr "Сайт працює на %s"
+
+#: inc/template-tags.php:247
+msgid "&larr; Older Comments"
+msgstr "&larr; Попередні коментарі"
+
+#: inc/template-tags.php:243
+msgid "Comments navigation"
+msgstr "Навігація по коментарях"
+
+#. translators: %1$s: smiley
+#: 404.php:69
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Перегляньте архіви по місяцям %1$s"
+
+#: 404.php:46
+msgid "Most Used Categories"
+msgstr "Популярні категорії"
+
+#: inc/hooks.php:30
+msgid "https://wordpress.org/"
+msgstr "https://uk.wordpress.org/"
+
+#: inc/custom-comments.php:106
+msgid "Comments are closed."
+msgstr "Коментарі закриті."
+
+#: loop-templates/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Здається, ми не можемо знайти того, що ви шукаєте. Можливо, пошук може допомогти."
+
+#: loop-templates/content-none.php:18
+msgid "Nothing Found"
+msgstr "Нічого не знайдено"
+
+#: loop-templates/content-none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Вибачте, але ніщо не відповідає вашим пошуковим термінам. Спробуйте ще раз із різними ключовими словами."
+
+#: author.php:54
+msgid "Website"
+msgstr "Сайт"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:43
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s думка щодо &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s думки щодо &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s думок щодо &ldquo;%2$s&rdquo;"
+
+#: inc/template-tags.php:253
+msgid "Newer Comments &rarr;"
+msgstr "Новіші коментарі &rarr;"
+
+#: inc/setup.php:49
+msgid "Primary Menu"
+msgstr "Головне меню"
+
+#: 404.php:30
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Отакої! Цю сторінку не знайдено."
+
+#. translators: Widget area title
+#: inc/widgets.php:305
+msgid "Hero Slider"
+msgstr "Слайдер Hero"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://howarddc.com"
+msgstr "https://howarddc.com"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Howard Development &amp; Consulting"
+msgstr "Howard Development &amp; Consulting"
+
+#. Theme URI of the theme
+#: style.css inc/hooks.php:40
+#, gp-priority: low
+msgid "https://understrap.com"
+msgstr "https://understrap.com"
