@@ -1973,3 +1973,164 @@ OR wp_posts.post_status = 'private')))
 					 GROUP BY wp_posts.ID
 					 ORDER BY wp_postmeta.meta_value+0 DESC
 					 LIMIT 0, 5 made by do_action('wp_ajax_real_estate_ajax_filter'), WP_Hook->do_action, WP_Hook->apply_filters, real_estate_ajax_filter, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[06-Jun-2025 22:00:52 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 10 made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[06-Jun-2025 22:02:16 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 10 made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[06-Jun-2025 22:04:02 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 10 made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[06-Jun-2025 22:07:34 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /var/www/html/wp-content/plugins/real-estate-manager/real-estate-manager.php on line 319
+[06-Jun-2025 22:07:34 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /var/www/html/wp-content/plugins/real-estate-manager/real-estate-manager.php on line 319
+[06-Jun-2025 22:08:02 UTC] WordPress database error ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^ for query SELECT FOUND_ROWS() made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
+[06-Jun-2025 22:10:41 UTC] WordPress database error ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^ for query SELECT FOUND_ROWS() made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
+[06-Jun-2025 22:11:30 UTC] WordPress database error ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^ for query SELECT FOUND_ROWS() made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
+[06-Jun-2025 22:11:55 UTC] WordPress database error ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^ for query SELECT FOUND_ROWS() made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
+[06-Jun-2025 22:13:23 UTC] WordPress database error ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^ for query SELECT FOUND_ROWS() made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
+[06-Jun-2025 22:15:41 UTC] WordPress database error ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^ for query SELECT FOUND_ROWS() made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
+[06-Jun-2025 22:15:44 UTC] WordPress database error ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^ for query SELECT FOUND_ROWS() made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
+[06-Jun-2025 22:15:51 UTC] WordPress database error ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^ for query SELECT FOUND_ROWS() made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
+[06-Jun-2025 22:19:48 UTC] WordPress database error ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^ for query SELECT FOUND_ROWS() made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts, WP_Query->set_found_posts
+[06-Jun-2025 22:49:32 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts.ID = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'rooms_0_area' AND CAST(mt1.meta_value AS SIGNED) BETWEEN '1' AND '111' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_real_estate_ajax_filter'), WP_Hook->do_action, WP_Hook->apply_filters, real_estate_ajax_filter, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[06-Jun-2025 22:52:11 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts.ID = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'rooms_0_area' AND CAST(mt1.meta_value AS SIGNED) BETWEEN '1' AND '111' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_real_estate_ajax_filter'), WP_Hook->do_action, WP_Hook->apply_filters, real_estate_ajax_filter, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[06-Jun-2025 22:53:56 UTC] WordPress database error ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts. for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts.ID = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'rooms_0_area' AND CAST(mt1.meta_value AS SIGNED) BETWEEN '1' AND '111' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5 made by do_action('wp_ajax_real_estate_ajax_filter'), WP_Hook->do_action, WP_Hook->apply_filters, real_estate_ajax_filter, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[06-Jun-2025 22:56:06 UTC] WordPress database error ERROR:  missing FROM-clause entry for table "wp_postmeta"
+LINE 5:       ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+                            ^ for query SELECT   wp_posts.*
+					 FROM wp_posts 
+					 WHERE 1=1  AND (wp_posts.ID = '64') AND wp_posts.post_type = 'page'
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					  made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[06-Jun-2025 23:15:46 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/advanced-custom-fields/pro/blocks.php on line 970
+[06-Jun-2025 23:15:46 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[06-Jun-2025 23:17:06 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/advanced-custom-fields/pro/blocks.php on line 970
+[06-Jun-2025 23:17:06 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[06-Jun-2025 23:21:36 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/advanced-custom-fields/pro/blocks.php on line 970
+[06-Jun-2025 23:21:36 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[06-Jun-2025 23:30:29 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/advanced-custom-fields/pro/blocks.php on line 970
+[06-Jun-2025 23:30:29 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[06-Jun-2025 23:31:15 UTC] PHP Warning:  Array to string conversion in /var/www/html/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 70
+[06-Jun-2025 23:32:00 UTC] PHP Warning:  Array to string conversion in /var/www/html/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 70
+[06-Jun-2025 23:39:32 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/advanced-custom-fields/pro/blocks.php on line 970
+[06-Jun-2025 23:39:32 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[06-Jun-2025 23:39:57 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/advanced-custom-fields/pro/blocks.php on line 970
+[06-Jun-2025 23:39:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[06-Jun-2025 23:40:58 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/wp-content/plugins/advanced-custom-fields/pro/blocks.php on line 970
+[06-Jun-2025 23:40:58 UTC] PHP Fatal error:  Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): trim(Array)
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-includes/post.php(2957): apply_filters('title_save_pre', Array)
+#3 /var/www/html/wp-includes/post.php(2842): sanitize_post_field('post_title', Array, 71, 'db')
+#4 /var/www/html/wp-includes/post.php(4247): sanitize_post(Array, 'db')
+#5 /var/www/html/wp-includes/post.php(4993): wp_insert_post(Array, false, true)
+#6 /var/www/html/wp-content/plugins/real-estate-manager/real-estate-manager.php(155): wp_update_post(Array)
+#7 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1230): update_real_estate_object(Object(WP_REST_Request))
+#8 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/realty/v1/obje...', Array, NULL)
+#9 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /var/www/html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/realty/v1/obje...')
+#11 /var/www/html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /var/www/html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /var/www/html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /var/www/html/wp-includes/functions.php(1336): WP->main('')
+#17 /var/www/html/wp-blog-header.php(16): wp()
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[06-Jun-2025 23:59:47 UTC] PHP Warning:  Array to string conversion in /var/www/html/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 70
+[07-Jun-2025 00:36:58 UTC] PHP Warning:  Array to string conversion in /var/www/html/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 70

@@ -5,6 +5,8 @@
 
 // Helper function to read environment variables or fallback values
 if (!function_exists('getenv_docker')) {
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', '/var/www/html/wp-content/plugins/wp-super-cache/' );
     function getenv_docker($env, $default) {
         if ($fileEnv = getenv($env . '_FILE')) {
             return rtrim(file_get_contents($fileEnv), "\r\n");

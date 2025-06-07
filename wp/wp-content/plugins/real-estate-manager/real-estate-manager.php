@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Real Estate Manager
- * Description: Реєструє тип запису "Об'єкт нерухомості", таксономію "Район" і реалізує REST API для взаємодії.
+ * Description: Registers "Real Estate Object" post type, "District" taxonomy, and provides REST API for interaction.
  * Version: 1.0
  * Author: viurinets
  */
@@ -10,17 +10,17 @@
 function real_estate_register_post_type() {
     register_post_type('real_estate', [
         'labels' => [
-            'name' => 'Обʼєкти нерухомості',
-            'singular_name' => 'Обʼєкт нерухомості',
-            'add_new' => 'Додати обʼєкт',
-            'add_new_item' => 'Додати новий обʼєкт',
-            'edit_item' => 'Редагувати обʼєкт',
-            'new_item' => 'Новий обʼєкт',
-            'view_item' => 'Переглянути обʼєкт',
-            'search_items' => 'Шукати обʼєкти',
-            'not_found' => 'Не знайдено',
-            'not_found_in_trash' => 'Не знайдено в кошику',
-            'menu_name' => 'Нерухомість'
+            'name' => 'Real Estate Objects',
+            'singular_name' => 'Real Estate Object',
+            'add_new' => 'Add Object',
+            'add_new_item' => 'Add New Object',
+            'edit_item' => 'Edit Object',
+            'new_item' => 'New Object',
+            'view_item' => 'View Object',
+            'search_items' => 'Search Objects',
+            'not_found' => 'Not Found',
+            'not_found_in_trash' => 'Not Found in Trash',
+            'menu_name' => 'Real Estate'
         ],
         'public' => true,
         'has_archive' => true,
@@ -34,60 +34,26 @@ function real_estate_register_post_type() {
 function real_estate_register_taxonomy() {
     register_taxonomy('district', 'real_estate', [
         'labels' => [
-            'name' => 'Райони',
-            'singular_name' => 'Район',
-            'search_items' => 'Пошук районів',
-            'all_items' => 'Всі райони',
-            'edit_item' => 'Редагувати район',
-            'update_item' => 'Оновити район',
-            'add_new_item' => 'Додати новий район',
-            'new_item_name' => 'Нова назва району',
-            'menu_name' => 'Район',
+            'name' => 'Districts',
+            'singular_name' => 'District',
+            'search_items' => 'Search Districts',
+            'all_items' => 'All Districts',
+            'edit_item' => 'Edit District',
+            'update_item' => 'Update District',
+            'add_new_item' => 'Add New District',
+            'new_item_name' => 'New District Name',
+            'menu_name' => 'District',
         ],
         'hierarchical' => true,
         'public' => true,
         'show_in_rest' => true,
     ]);
+    register_taxonomy_for_object_type('district', 'real_estate');
 }
 
 add_action('init', 'real_estate_register_post_type');
 add_action('init', 'real_estate_register_taxonomy');
 
-// === Optional Dummy Data ===
-add_action('init', function () {
-    if (get_option('real_estate_dummy_data_insertedd')) return;
-
-    for ($i = 1; $i <= 10; $i++) {
-        $post_id = wp_insert_post([
-            'post_title' => "Будинок $i",
-            'post_type' => 'real_estate',
-            'post_status' => 'publish',
-        ]);
-
-        update_field('назва_будинку', "Будинок $i", $post_id);
-        update_field('координати_місцезнаходження', "50.4" . rand(100,999) . ", 30.5" . rand(100,999), $post_id);
-        update_field('кількість_поверхів', rand(1, 20), $post_id);
-        update_field('тип_будівлі', ['панель', 'цегла', 'піноблок'][rand(0,2)], $post_id);
-        update_field('екологічність', rand(1, 5), $post_id);
-
-        if (function_exists('have_rows')) {
-            $rooms = rand(1, 3);
-            for ($j = 0; $j < $rooms; $j++) {
-                add_row('приміщення', [
-                    'площа' => rand(20, 100),
-                    'кіл_кімнат' => rand(1, 5),
-                    'балкон' => rand(0,1) ? 'так' : 'ні',
-                    'санвузол' => rand(0,1) ? 'так' : 'ні',
-                ], $post_id);
-            }
-        }
-
-        $districts = ['Центр', 'Поділ', 'Соломʼянка', 'Троєщина'];
-        wp_set_object_terms($post_id, $districts[array_rand($districts)], 'district');
-    }
-
-    update_option('real_estate_dummy_data_insertedd', true);
-});
 
 // === REST API Routes ===
 add_action('rest_api_init', function () {
@@ -127,6 +93,7 @@ function get_real_estate_objects($request) {
     $args = [
         'post_type' => 'real_estate',
         'posts_per_page' => -1,
+        'post_status'    => ['publish'],
     ];
 
     if ($district = $request->get_param('district')) {
@@ -187,24 +154,60 @@ function update_real_estate_object($request) {
         return new WP_Error('not_found', 'Post not found', ['status' => 404]);
     }
 
-    wp_update_post([
-        'ID' => $post_id,
-        'post_title' => $request['title'],
-        'post_content' => $request['content'],
-    ]);
+    $post_data = ['ID' => $post_id];
 
+    // --- Update title
+    if (!empty($request['title']) && is_string($request['title'])) {
+        $post_data['post_title'] = sanitize_text_field($request['title']);
+    }
+
+    // --- Update content
+    if (!empty($request['content']) && is_string($request['content'])) {
+        $post_data['post_content'] = wp_kses_post($request['content']);
+    }
+
+    // --- Update post
+    if (count($post_data) > 1) {
+        wp_update_post($post_data);
+    }
+
+    // --- Update ACF fields
     if (!empty($request['acf']) && function_exists('update_field')) {
         foreach ($request['acf'] as $key => $value) {
             update_field($key, $value, $post_id);
         }
     }
 
-    if (!empty($request['districts'])) {
-        wp_set_post_terms($post_id, $request['districts'], 'district');
+    // --- Update taxonomy: district
+    if (!empty($request['districts']) && is_array($request['districts'])) {
+        $term_ids = [];
+
+        foreach ($request['districts'] as $term_input) {
+            $term_input = sanitize_text_field($term_input);
+
+            // Try slug first
+            $term = get_term_by('slug', $term_input, 'district');
+
+            // Fallback to name
+            if (!$term) {
+                $term = get_term_by('name', $term_input, 'district');
+            }
+
+            if ($term && !is_wp_error($term)) {
+                $term_ids[] = (int) $term->term_id;
+            }
+        }
+
+        if (!empty($term_ids)) {
+            wp_set_post_terms($post_id, $term_ids, 'district');
+        }
     }
 
     return rest_ensure_response(['success' => true]);
 }
+
+
+
 
 // === API: DELETE ===
 function delete_real_estate_object($request) {
@@ -253,21 +256,21 @@ function real_estate_ajax_filter() {
 
     if (!is_null($area_min) && !is_null($area_max)) {
         $meta_query[] = [
-            'key' => 'приміщення_0_площа',
+            'key' => 'rooms_0_area',
             'value' => [$area_min, $area_max],
             'type' => 'NUMERIC',
             'compare' => 'BETWEEN'
         ];
     } elseif (!is_null($area_min)) {
         $meta_query[] = [
-            'key' => 'приміщення_0_площа',
+            'key' => 'rooms_0_area',
             'value' => $area_min,
             'type' => 'NUMERIC',
             'compare' => '>='
         ];
     } elseif (!is_null($area_max)) {
         $meta_query[] = [
-            'key' => 'приміщення_0_площа',
+            'key' => 'rooms_0_area',
             'value' => $area_max,
             'type' => 'NUMERIC',
             'compare' => '<='
@@ -276,7 +279,7 @@ function real_estate_ajax_filter() {
 
     if ($rooms) {
         $meta_query[] = [
-            'key' => 'приміщення_0_кіл_кімнат',
+            'key' => 'rooms_0_room_count',
             'value' => $rooms,
             'type' => 'NUMERIC',
             'compare' => '='
@@ -285,7 +288,7 @@ function real_estate_ajax_filter() {
 
     if (!is_null($floors)) {
         $meta_query[] = [
-            'key' => 'кількість_поверхів',
+            'key' => 'number_of_floors',
             'value' => $floors,
             'type' => 'NUMERIC',
             'compare' => '='
@@ -294,7 +297,7 @@ function real_estate_ajax_filter() {
 
     if ($building_type) {
         $meta_query[] = [
-            'key' => 'тип_будівлі',
+            'key' => 'building_type',
             'value' => $building_type,
             'compare' => '='
         ];
@@ -302,7 +305,7 @@ function real_estate_ajax_filter() {
 
     if (!is_null($eco_rating)) {
         $meta_query[] = [
-            'key' => 'екологічність',
+            'key' => 'eco_rating',
             'value' => $eco_rating,
             'type' => 'NUMERIC',
             'compare' => '='
@@ -313,8 +316,13 @@ function real_estate_ajax_filter() {
         'post_type' => 'real_estate',
         'posts_per_page' => 5,
         'paged' => $paged,
-        'meta_query' => $meta_query
+        'meta_query' => $meta_query,
+        'meta_key' => 'eco_rating',
+        'orderby' => 'meta_value',
+        'order' => 'DESC',
     ];
+    
+    
 
     if ($district) {
         $args['tax_query'] = [[
@@ -346,30 +354,50 @@ function real_estate_ajax_filter() {
             echo '</div>';
         }
     } else {
-        echo '<p>Нічого не знайдено.</p>';
+        echo '<p>Nothing found.</p>';
     }
     wp_die();
 }
 
+
 class RealEstateQueryModifier {
     public function __construct() {
         add_action('pre_get_posts', [$this, 'modify_query']);
+        add_filter('posts_orderby', [$this, 'modify_orderby'], 10, 2);
     }
 
     public function modify_query($query) {
-        // Виконується лише для основного запиту на фронтенді
         if (is_admin() || !$query->is_main_query()) {
             return;
         }
 
-        // Застосовуємо сортування тільки для архіву типу 'real_estate'
-        if (is_post_type_archive('real_estate')) {
-            $query->set('meta_key', 'екологічність');
-            $query->set('orderby', 'meta_value_num');
-            $query->set('order', 'DESC'); // або 'ASC', якщо потрібен зворотній порядок
+        if (
+            is_post_type_archive('real_estate') ||
+            is_home() || 
+            is_front_page()
+        ) {
+            $query->set('meta_key', 'eco_rating');
+            $query->set('orderby', 'meta_value');
+            $query->set('order', 'DESC');
         }
+    }
+
+    public function modify_orderby($orderby, $query) {
+        if (is_admin() || !$query->is_main_query()) {
+            return $orderby;
+        }
+
+        if (
+            is_post_type_archive('real_estate') ||
+            is_home() || 
+            is_front_page()
+        ) {
+            global $wpdb;
+            return "CAST({$wpdb->postmeta}.meta_value AS INTEGER) DESC";
+        }
+
+        return $orderby;
     }
 }
 
-// Ініціалізуємо клас
 new RealEstateQueryModifier();

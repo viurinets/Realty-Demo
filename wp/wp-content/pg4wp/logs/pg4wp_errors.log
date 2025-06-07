@@ -2525,3 +2525,311 @@ LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
                                                        ^
 HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
 ---------------------
+[1749247252.8773] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 10
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 10 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1749247336.0526] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 10
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 10 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1749247442.4109] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 10
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 10 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1749247682.1692] Error running :
+SELECT FOUND_ROWS()
+---- converted to ----
+SELECT COUNT(*) FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 ) DESC
+----> ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^
+---------------------
+[1749247841.1841] Error running :
+SELECT FOUND_ROWS()
+---- converted to ----
+SELECT COUNT(*) FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 ) DESC
+----> ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^
+---------------------
+[1749247890.2401] Error running :
+SELECT FOUND_ROWS()
+---- converted to ----
+SELECT COUNT(*) FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 ) DESC
+----> ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^
+---------------------
+[1749247915.7536] Error running :
+SELECT FOUND_ROWS()
+---- converted to ----
+SELECT COUNT(*) FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 ) DESC
+----> ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^
+---------------------
+[1749248003.8627] Error running :
+SELECT FOUND_ROWS()
+---- converted to ----
+SELECT COUNT(*) FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 ) DESC
+----> ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^
+---------------------
+[1749248141.4324] Error running :
+SELECT FOUND_ROWS()
+---- converted to ----
+SELECT COUNT(*) FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 ) DESC
+----> ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^
+---------------------
+[1749248144.6293] Error running :
+SELECT FOUND_ROWS()
+---- converted to ----
+SELECT COUNT(*) FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 ) DESC
+----> ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^
+---------------------
+[1749248151.7474] Error running :
+SELECT FOUND_ROWS()
+---- converted to ----
+SELECT COUNT(*) FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 ) DESC
+----> ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^
+---------------------
+[1749248388.5309] Error running :
+SELECT FOUND_ROWS()
+---- converted to ----
+SELECT COUNT(*) FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating'
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' 
+OR wp_posts.post_status = 'private')))
+					 ) DESC
+----> ERROR:  syntax error at or near ")"
+LINE 6:       ) DESC
+              ^
+---------------------
+[1749250172.4795] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts.ID = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'rooms_0_area' AND CAST(mt1.meta_value AS SIGNED) BETWEEN '1' AND '111' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts."ID" = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'rooms_0_area' AND CAST(mt1.meta_value AS INTEGER) BETWEEN '1' AND '111' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1749250331.4795] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts.ID = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'rooms_0_area' AND CAST(mt1.meta_value AS SIGNED) BETWEEN '1' AND '111' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts."ID" = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'rooms_0_area' AND CAST(mt1.meta_value AS INTEGER) BETWEEN '1' AND '111' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1749250436.1912] Error running :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts.ID = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'rooms_0_area' AND CAST(mt1.meta_value AS SIGNED) BETWEEN '1' AND '111' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 DESC
+					 LIMIT 0, 5
+---- converted to ----
+SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts."ID" = wp_postmeta.post_id )  INNER JOIN wp_postmeta AS mt1 ON ( wp_posts."ID" = mt1.post_id )
+					 WHERE 1=1  AND ( 
+  wp_postmeta.meta_key = 'eco_rating' 
+  AND 
+  ( 
+    ( mt1.meta_key = 'rooms_0_area' AND CAST(mt1.meta_value AS INTEGER) BETWEEN '1' AND '111' )
+  )
+) AND ((wp_posts.post_type = 'real_estate' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' 
+OR wp_posts.post_status = 'private')))
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 LIMIT 5 OFFSET 0
+----> ERROR:  operator does not exist: text + integer
+LINE 1: SELECT   wp_posts."ID" , wp_postmeta.meta_value+0
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1749250566.8741] Error running :
+SELECT   wp_posts.*
+					 FROM wp_posts 
+					 WHERE 1=1  AND (wp_posts.ID = '64') AND wp_posts.post_type = 'page'
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+					 
+---- converted to ----
+SELECT   wp_posts.*
+					 FROM wp_posts 
+					 WHERE 1=1  AND (wp_posts."ID" = '64') AND wp_posts.post_type = 'page'
+					 
+					 ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+----> ERROR:  missing FROM-clause entry for table "wp_postmeta"
+LINE 5:       ORDER BY CAST(wp_postmeta.meta_value AS INTEGER) DESC
+                            ^
+---------------------
